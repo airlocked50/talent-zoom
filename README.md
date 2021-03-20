@@ -39,3 +39,14 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - url: https://tz.thaeds.dev/
   - user: talentzoom
   - pass: thaeds.dev
+
+### March 20th, 2021
+> 4 working hours
+
+- added featured cards
+  - removed default clickable behaviors
+  - added links
+  - desktop adjusted font-size, margins and paddings
+  - laptop adjusted to keep 2 columns
+  - laptop adjusted font-size and paddings
+  - tablet and mobile adjusted paddings
