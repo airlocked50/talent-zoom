@@ -14,7 +14,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 ## Work Progress
 
-March 18th - 2h
+### March 18th - 2h
 
 - initial react project setup
 - installed ibm dot com modules
@@ -22,7 +22,7 @@ March 18th - 2h
   - adjusted buttons styles
   - adjusted container width
 
-March 19th - 4h
+### March 19th - 4h
 
 - installed Ubuntu font
 - added navbar
@@ -30,6 +30,7 @@ March 19th - 4h
   - laptop containing smaller links and a smaller "sign up" button
   - tablet and mobile containing a hamburger button, the content slides in revealing a menu with the links
 - created github private project
-- created aws page for a online preview
+- created aws environment for preview
+  - url: tz.thaeds.dev
   - user: talentzoom
   - pass: thaeds.dev
