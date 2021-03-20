@@ -134,6 +134,61 @@ class App extends Component {
           }}
         />
 
+        <div class="th--solutions-first">
+          <div class="bx--row">
+            <div class="bx--col-lg-0 bx--col-md-0 bx--col-sm-8">
+              <img class="th--solutions-image" src="/images/app-seeking-simplified.svg" alt="tridimensional Ts attached to each other"></img>
+            </div>
+            <div class="bx--col-lg-8">
+              <h2>Joob seeking, simplified</h2>
+              <div class="bx--row">
+                <div class="bx--col-lg-8 bx--col-md-4">
+                  <div class="th--solutions-title"><span>01</span>Create a profile</div>
+                  <div class="th--solutions-paragraph">Sign up and tell us what matters to you – from location preferences to compensation expectations.</div>
+                </div>
+                <div class="bx--col-lg-8 bx--col-md-4">
+                  <div class="th--solutions-title"><span>02</span>Get matched</div>
+                  <div class="th--solutions-paragraph">We’ll take it from here. Match with top employers and get alerted when companies request to interview you!</div>
+                </div>
+                <div class="bx--col-lg-8 bx--col-md-4">
+                  <div class="th--solutions-title"><span>03</span>Meet your dedicated Talent Advocate</div>
+                  <div class="th--solutions-paragraph">Our Talent Advocates are here to support you throughout the interview and hiring process.</div>
+                </div>
+                <div class="bx--col-lg-8 bx--col-md-4">
+                  <div class="th--solutions-title"><span>04</span>Get hired</div>
+                  <div class="th--solutions-paragraph">Nailed the interview? Receive an offer letter, a contract to sign, and a signing bonus!</div>
+                </div>
+              </div>
+            </div>
+            <div class="bx--col-lg-8 bx--col-md-0 bx--col-sm-0">
+              <img class="th--solutions-image" src="/images/app-seeking-simplified.svg" alt="tridimensional Ts attached to each other"></img>
+            </div>
+          </div>
+        </div>
+
+        <div class="th--solutions-second">
+          <div class="th--solutions-background"></div>
+          <div class="bx--row">
+            <div class="bx--col-lg-8 bx--col-md-4">
+              <img class="th--solutions-image" src="/images/app-join-team.svg" alt="tridimensional Ts with persons sitting on it"></img>
+            </div>
+            <div class="bx--col-lg-8 bx--col-md-4">
+              <h2>Join a team you love</h2>
+              <div class="th--solutions-paragraph">Get qualified by our Tech-Out team to match with your ideal company and find the perfect fit.</div>
+              <div class="th--solutions-links">
+                <LinkWithIcon href="/signup">
+                  <span>Sign up to get matched</span>
+                  <ArrowRight20 />
+                </LinkWithIcon>
+                <LinkWithIcon href="/employer">
+                  <span>Hiring? Build your team</span>
+                  <ArrowRight20 />
+                </LinkWithIcon>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="th--featured-first">
           <FeatureCardBlockLarge
             className="bx--card bx--feature-card-block-large__card th--featured-card"

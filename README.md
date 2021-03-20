@@ -41,7 +41,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - pass: thaeds.dev
 
 ### March 20th, 2021
-> 4 working hours
+> 8 working hours
 
 - added featured cards
   - removed default clickable behaviors
@@ -50,3 +50,10 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - laptop adjusted to keep 2 columns
   - laptop adjusted font-size and paddings
   - tablet and mobile adjusted paddings
+- added solutions bands
+  - desktop adjusted gray background
+  - laptop adjusted grid, font-size and gray background
+  - tablet adjusted grid
+  - tablet removed gray background and "job seeking" image
+  - mobile adjusted grid
+  - mobile added "job seeking" image

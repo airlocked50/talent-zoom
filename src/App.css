@@ -160,6 +160,168 @@ body {
 }
 
 
+/* SOLUTIONS */
+
+.th--solutions-first {
+  padding: 48px 40px 0;
+}
+
+.th--solutions-first h2 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.th--solutions-title {
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 8px;
+  width: 70%;
+}
+
+.th--solutions-title span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.th--solutions-first .th--solutions-paragraph {
+  margin-bottom: 32px;
+  line-height: 24px;
+  width: 70%;
+}
+
+.th--solutions-image {
+  height: 488px;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.th--solutions-second {
+  padding: 48px 40px 0;
+  margin-top: 24px;
+  position: relative;
+}
+
+.th--solutions-second h2 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.th--solutions-second .th--solutions-paragraph {
+  margin-bottom: 24px;
+  line-height: 24px;
+  width: 50%;
+}
+
+.th--solutions-second .bx--link {
+  padding: 4px 0;
+  margin: 4px 0;
+  display: inline-flex;
+}
+
+.th--solutions-background {
+  width: 5000px;
+  bottom: 420px;
+  left: -600px;
+  right: 0;
+  height: 800px;
+  background-color: #f4f4f4;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(150deg);
+}
+
+@media (max-width: 124rem) {
+
+  .th--solutions-background {
+    height: 720px;
+    bottom: 640px;
+  }
+}
+
+
+@media (max-width: 98rem) {
+
+  .th--solutions-first, .th--solutions-second {
+    padding: 48px 32px 0;
+  }
+}
+
+@media (max-width: 90rem) {
+
+  .th--solutions-background {
+    height: 640px;
+    bottom: 760px;
+  }
+
+  .th--solutions-first .th--solutions-paragraph {
+    width: 80%;
+  }
+
+  .th--solutions-second .th--solutions-paragraph {
+    width: 70%;
+  }
+}
+
+@media (max-width: 80rem) {
+  
+  .th--solutions-first .th--solutions-paragraph {
+    width: 90%;
+  }
+
+  .th--solutions-second .th--solutions-paragraph {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 66rem) {
+
+  .th--solutions-background {
+    display: none;
+  }
+
+  .th--solutions-image {
+    height: auto;
+  }
+
+  .th--solutions-second {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .th--solutions-first h2, .th--solutions-second h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 48rem) {
+
+  .th--solutions-first .th--solutions-paragraph {
+    width: 100%;
+  }
+
+  .th--solutions-second .th--solutions-paragraph {
+    width: 100%;
+  }
+
+  .th--solutions-second {
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 42rem) {
+
+  .th--solutions-first, .th--solutions-second {
+    padding: 24px 16px 0;
+  }
+
+  .th--solutions-image {
+    margin-bottom: 32px;
+  }
+}
+
+
 
 /* FEATURED CARDS */
 
