@@ -14,7 +14,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 ## Work Progress
 
-### March 18th - 2h
+### March 18th, 2021
 > 2 working hours
 
 - initial react project setup
@@ -23,7 +23,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - adjusted buttons styles
   - adjusted container width
 
-### March 19th 
+### March 19th, 2021
 > 4 working hours
 
 - installed Ubuntu font
