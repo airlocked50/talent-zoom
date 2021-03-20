@@ -4,7 +4,7 @@ import './App.css';
 
 import { LeadSpace, FeatureCardBlockLarge } from '@carbon/ibmdotcom-react';
 import { Button } from 'carbon-components-react';
-import { ArrowRight20, Fade16, Menu32 } from '@carbon/icons-react';
+import { ArrowRight20, Menu32 } from '@carbon/icons-react';
 
 import HeaderContainer from "carbon-components-react/lib/components/UIShell/HeaderContainer";
 import {
@@ -50,10 +50,10 @@ class App extends Component {
 
                   <div class="th--nav-links">
                     <a href="/">Job Seeker</a>
-                    <a href="/">Employers</a>
-                    <a href="/">About Us</a>
-                    <a href="/">Login</a>
-                    <Button as="button" renderIcon={ArrowRight20} role="button">Sign Up</Button>
+                    <a href="/employer">Employers</a>
+                    <a href="/aboutus">About Us</a>
+                    <a href="/login">Login</a>
+                    <Button href="/signup" as="button" renderIcon={ArrowRight20} role="button">Sign Up</Button>
                   </div>
 
                   <Button 
@@ -69,11 +69,11 @@ class App extends Component {
 
                 <SideNav aria-label="Side navigation" expanded={isSideNavExpanded}>
                   <SideNavItems>
-                    <SideNavMenuItem href="javascript:void(0)">Job Seeker</SideNavMenuItem>
-                    <SideNavMenuItem href="javascript:void(0)">Employers</SideNavMenuItem>
-                    <SideNavMenuItem href="javascript:void(0)">About Us</SideNavMenuItem>
-                    <SideNavMenuItem href="javascript:void(0)">Login</SideNavMenuItem>
-                    <SideNavMenuItem href="javascript:void(0)">Sign Up</SideNavMenuItem>
+                    <SideNavMenuItem href="/">Job Seeker</SideNavMenuItem>
+                    <SideNavMenuItem href="/employer">Employers</SideNavMenuItem>
+                    <SideNavMenuItem href="/aboutus">About Us</SideNavMenuItem>
+                    <SideNavMenuItem href="/login">Login</SideNavMenuItem>
+                    <SideNavMenuItem href="/signup">Sign Up</SideNavMenuItem>
                   </SideNavItems>
                 </SideNav>
 
@@ -92,13 +92,13 @@ class App extends Component {
             {
               copy: 'I’m ready to be matched',
               renderIcon: ArrowRight20,
-              href: 'https://www.example.com',
+              href: '/signup',
               className: 'th--btn-first'
             },
             {
               copy: 'I’m hiring',
               renderIcon: ArrowRight20,
-              href: 'https://www.example.com',
+              href: '/signup',
               className: 'th--btn-second'
             },
           ]}
