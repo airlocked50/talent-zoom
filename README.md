@@ -43,14 +43,14 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 20th, 2021
 > 8 working hours
 
-- homepage: created featured cards
+- homepage: created 2 featured cards
   - removed default clickable behaviors
   - added links
   - desktop adjusted font-size, margins and paddings
   - laptop adjusted to keep 2 columns
   - laptop adjusted font-size and paddings
   - tablet and mobile adjusted paddings
-- homepage: created solutions bands
+- homepage: created 2 solutions bands
   - desktop adjusted gray background
   - laptop adjusted grid, font-size and gray background
   - tablet adjusted grid
@@ -65,7 +65,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - tablet ajusted margins and paddings
   - mobile ajusted content order, margins and paddings
 - created modules routes
-  - navbar, footer and leadpsace can now be reused on the site
+  - navbar, footer can now be reused on the site
 - created employers route
   - new path /employers
   - added navbar
@@ -76,3 +76,12 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - added navbar
   - added footer
   - added leadspace
+
+
+### March 21th, 2021
+> 2 working hours
+
+- employers: added 3 solutions band
+  - adjusted gray background
+  - adjusted margins and paddings
+- employers: added featured card
