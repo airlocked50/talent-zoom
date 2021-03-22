@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
 import Home from './pages/Home';
 import Employers from './pages/Employers';
 import AboutUs from './pages/AboutUs';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
+import './index.scss';
+import './index.css';
 
 ReactDOM.render(
   <Router>

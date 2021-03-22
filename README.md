@@ -54,9 +54,8 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - desktop adjusted gray background
   - laptop adjusted grid, font-size and gray background
   - tablet adjusted grid
-  - tablet removed gray background and "job seeking" image
+  - tablet removed gray background
   - mobile adjusted grid
-  - mobile added "job seeking" image
 
 ### March 21th, 2021
 > 6 working hours
@@ -78,10 +77,14 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - added leadspace
 
 
-### March 21th, 2021
-> 2 working hours
+### March 22th, 2021
+> 4 working hours
 
 - employers: added 3 solutions band
   - adjusted gray background
   - adjusted margins and paddings
 - employers: added featured card
+- employers: created features band
+  - desktop adjusted to keep 4 columns
+  - laptop and tablet adjusted to keep 2 columns
+  - mobile adjusted to keep 1 column

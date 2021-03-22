@@ -3,8 +3,6 @@ import { LeadSpace, FeatureCardBlockLarge, LinkWithIcon } from '@carbon/ibmdotco
 import { ArrowRight20 } from '@carbon/icons-react';
 import Navbar from '../modules/Navbar';
 import Footer from '../modules/Footer';
-import './Home.scss';
-import './Home.css';
 
 class Home extends Component {
 

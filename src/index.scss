@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600&display=swap');
 @import 'carbon-components/scss/globals/scss/styles.scss';
+@import '@carbon/ibmdotcom-styles/scss/components/leadspace/leadspace';
+@import '@carbon/ibmdotcom-styles/scss/components/feature-card-block-large/feature-card-block-large.scss';
+@import '@carbon/ibmdotcom-styles/scss/components/link-with-icon/link-with-icon';
 
 body {
   margin: 0;

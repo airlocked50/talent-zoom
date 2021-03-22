@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../modules/Navbar';
 import Footer from '../modules/Footer';
-import './AboutUs.scss';
 import { LeadSpace } from '@carbon/ibmdotcom-react';
 
 class AboutUs extends Component {

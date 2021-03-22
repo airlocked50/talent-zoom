@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../modules/Navbar';
 import Footer from '../modules/Footer';
-import './Employers.scss';
 import { LeadSpace, FeatureCardBlockLarge, LinkWithIcon } from '@carbon/ibmdotcom-react';
-import { ArrowRight20 } from '@carbon/icons-react';
+import { ArrowRight20, CheckmarkOutline24 } from '@carbon/icons-react';
 
 class Employers extends Component {
 
@@ -119,7 +118,111 @@ class Employers extends Component {
           </div>
         </div>
 
-        <div className="th--solutions-second">
+        <div className="th--solutions-third">
+          <div className="th--solutions-third-background-corner"></div>
+          <div className="bx--row">
+            <div className="bx--col-lg-4 bx--col-md-4">
+              <h2>Features</h2>
+              <div className="th--solutions-paragraph">Ditch the job applications and start getting matched with top employers.</div>
+              <div className="th--solutions-links">
+                <LinkWithIcon href="/signup">
+                  <span>Created a profile</span>
+                  <ArrowRight20 />
+                </LinkWithIcon>
+              </div>
+            </div>
+            <div className="bx--col-lg-4 bx--col-md-4">
+              <div className="th--solutions-box">
+                <ul>
+                  <li>
+                    <h3>TalentZoom</h3>
+                  </li>
+                  <li>
+                    <p>High-quality, high intent Job Seekers</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>AI Driven matching</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Interview requests with scheduling and calendar</p>
+                      <CheckmarkOutline24 />
+                    </li>
+                  <li>
+                    <p>Automated offers</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Dedicated Talent Advocate support</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Employer branding</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8"><br/><br/></div>
+            <div className="bx--col-lg-0 bx--col-md-8"><br/><br/></div>
+            <div className="bx--col-lg-4 bx--col-md-4">
+              <div className="th--solutions-box th--solutions-box-highlighted">
+                <ul>
+                  <li>
+                    <h3>Hiring an employee?</h3>
+                  </li>
+                  <li>
+                    <p>1% of salary monthly fee</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Fee cap - 12% of salary</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Payment schedule for up to 12 months*</p>
+                      <CheckmarkOutline24 />
+                    </li>
+                  <li className="th--solutions-box-end">
+                    <p>*Payments cease if the TalentZoom hire is terminated or resigns from their position before the 12 month payment period ends.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8"><br/><br/></div>
+            <div className="bx--col-lg-4 bx--col-md-4">
+              <div className="th--solutions-box">
+                <ul>
+                  <li>
+                    <h3>Hiring a contractor?</h3>
+                  </li>
+                  <li>
+                    <p>Fixed fees of 12% based on annual compensation</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Fees are set on a per hour basis</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li>
+                    <p>Transparent contractor pay rate</p>
+                      <CheckmarkOutline24 />
+                    </li>
+                  <li>
+                    <p>No conversions fees after 12 months of contracting*</p>
+                    <CheckmarkOutline24 />
+                  </li>
+                  <li className="th--solutions-box-end">
+                    <p>*Want to convert your contractor before the 12 month mark? We will include a sliding scale for conversion fees.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="th--solutions-second th--solutions-white">
           <div className="bx--row">
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4">
               <img className="th--solutions-image" src="/images/employers-transparency.svg" alt="tridimensional T with a person sitting on it"></img>

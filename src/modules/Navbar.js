@@ -1,4 +1,3 @@
-import './Navbar.css';
 import { Button } from 'carbon-components-react';
 import { ArrowRight20, Menu32 } from '@carbon/icons-react';
 import HeaderContainer from "carbon-components-react/lib/components/UIShell/HeaderContainer";
