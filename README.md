@@ -19,7 +19,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 - initial react project setup
 - installed ibm dot com modules
-- added leadspace
+- homepage: created leadspace
   - adjusted buttons styles
   - adjusted container width
 
@@ -27,10 +27,10 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 > 4 working hours
 
 - installed Ubuntu font
-- added navbar
+- created navbar
   - desktop containing links and "sign up" button
   - laptop containing smaller links and a smaller "sign up" button
-  - tablet and mobile containing a hamburger button, the content slides in revealing a menu with the links
+  - tablet and mobile containing a hamburger button, onclick: the content slides in revealing a menu with the nav links
 - created github private project
   - https://github.com/thaed-seven/talent-zoom
   - added akytara@gmail.com
@@ -43,17 +43,31 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 20th, 2021
 > 8 working hours
 
-- added featured cards
+- homepage: created featured cards
   - removed default clickable behaviors
   - added links
   - desktop adjusted font-size, margins and paddings
   - laptop adjusted to keep 2 columns
   - laptop adjusted font-size and paddings
   - tablet and mobile adjusted paddings
-- added solutions bands
+- homepage: created solutions bands
   - desktop adjusted gray background
   - laptop adjusted grid, font-size and gray background
   - tablet adjusted grid
   - tablet removed gray background and "job seeking" image
   - mobile adjusted grid
   - mobile added "job seeking" image
+
+### March 21th, 2021
+> 4 working hours
+
+- created footer
+  - tablet ajusted margins and paddings
+  - mobile ajusted content order, margins and paddings
+- created modules routes
+  - navbar and footer can now be reused on the site
+- created pages routes
+  - new path /employers
+  - new path /aboutus
+- employers: created leadspace
+- about us: created leadpsace
