@@ -3,7 +3,7 @@ body {
 }
 
 #root {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 
@@ -360,6 +360,10 @@ body {
 
   .bx--feature-card-block-large__container .bx--card__wrapper .bx--card__heading {
     margin-bottom: 24px;
+  }
+
+  .th--featured-first, .th--featured-second {
+    padding: 0;
   }
 
   .th--featured-second .th--featured-card {
