@@ -59,15 +59,20 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - mobile added "job seeking" image
 
 ### March 21th, 2021
-> 4 working hours
+> 6 working hours
 
 - created footer
   - tablet ajusted margins and paddings
   - mobile ajusted content order, margins and paddings
 - created modules routes
-  - navbar and footer can now be reused on the site
-- created pages routes
+  - navbar, footer and leadpsace can now be reused on the site
+- created employers route
   - new path /employers
+  - added navbar
+  - added footer
+  - added leadspace
+- created about us route
   - new path /aboutus
-- employers: created leadspace
-- about us: created leadpsace
+  - added navbar
+  - added footer
+  - added leadspace
