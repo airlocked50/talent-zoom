@@ -49,7 +49,7 @@ class AboutUs extends Component {
             {/* <div className="bx--col-lg-0 bx--col-md-8 bx--col-sm-0"><br/><br/></div> */}
             <div className="bx--col-lg-8 bx--col-md-4 bx--col-sm-4">
               <div className="th--values-image">
-                <img width="600" src="./images/home-seeking-simplified.svg" alt="tridimensional cube with Ts" />
+                <img width="600" src="/images/home-seeking-simplified.svg" alt="tridimensional cube with Ts" />
               </div>
             </div>
           </div>
