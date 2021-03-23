@@ -92,7 +92,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
     - mobile adjusted to use 1 column
 
 ### March 23th, 2021
-> 8 working hours
+> 6 working hours
 
 - employers FAQ:
   - **created** route https://tz.thaeds.dev/employers-faq
