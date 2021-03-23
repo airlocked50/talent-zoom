@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './pages/Home';
+import JobSeekersFAQ from './pages/JobSeekersFAQ';
+import JobSeekersTerms from './pages/JobSeekersTerms';
 import Employers from './pages/Employers';
+import EmployersFAQ from './pages/EmployersFAQ';
+import EmployersTerms from './pages/EmployersTerms';
 import AboutUs from './pages/AboutUs';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -13,8 +17,12 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route path="/job-seekers-faq" component={JobSeekersFAQ} />
+      <Route path="/job-seekers-terms" component={JobSeekersTerms} />
       <Route path="/employers" component={Employers} />
-      <Route path="/aboutus" component={AboutUs} />
+      <Route path="/employers-faq" component={EmployersFAQ} />
+      <Route path="/employers-terms" component={EmployersTerms} />
+      <Route path="/about-us" component={AboutUs} />
     </Switch>
   </Router>,
   document.getElementById('root')

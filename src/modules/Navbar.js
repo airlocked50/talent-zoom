@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="th--nav-links">
               <a href="/">Job seekers</a>
               <a href="/employers">Employers</a>
-              <a href="/aboutus">About us</a>
+              <a href="/about-us">About us</a>
               <a href="/login">Login</a>
               <Button href="/signup" as="button" iconDescription="arrow right" renderIcon={ArrowRight20} role="button">Sign up</Button>
             </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <SideNavItems>
               <SideNavMenuItem href="/">Job seekers</SideNavMenuItem>
               <SideNavMenuItem href="/employers">Employers</SideNavMenuItem>
-              <SideNavMenuItem href="/aboutus">About us</SideNavMenuItem>
+              <SideNavMenuItem href="/about-us">About us</SideNavMenuItem>
               <SideNavMenuItem href="/login">Login</SideNavMenuItem>
               <SideNavMenuItem href="/signup">Sign up</SideNavMenuItem>
             </SideNavItems>

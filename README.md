@@ -19,7 +19,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 - initial react project setup
 - installed ibm dot com modules
-- homepage: created leadspace
+- homepage: **created** leadspace
   - adjusted buttons styles
   - adjusted container width
 
@@ -27,15 +27,15 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 > 4 working hours
 
 - installed Ubuntu font
-- created navbar
+- **created** navbar
   - desktop containing links and "sign up" button
   - laptop containing smaller links and a smaller "sign up" button
   - tablet and mobile containing a hamburger button, onclick: the content slides in revealing a menu with the nav links
-- created github private project
+- **created** github private project
   - https://github.com/thaed-seven/talent-zoom
   - added akytara@gmail.com
   - added anilak1978@gmail.com
-- created protected aws environment
+- **created** protected aws environment
   - url: https://tz.thaeds.dev/
   - user: talentzoom
   - pass: thaeds.dev
@@ -43,14 +43,14 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 20th, 2021
 > 8 working hours
 
-- homepage: created 2 featured cards
+- homepage: **created** 2 featured cards
   - removed default clickable behaviors
   - added links
   - desktop adjusted font-size, margins and paddings
   - laptop adjusted to keep 2 columns
   - laptop adjusted font-size and paddings
   - tablet and mobile adjusted paddings
-- homepage: created 2 solutions bands
+- homepage: **created** 2 solutions bands
   - desktop adjusted gray background
   - laptop adjusted grid, font-size and gray background
   - tablet adjusted grid
@@ -60,22 +60,21 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 21th, 2021
 > 6 working hours
 
-- created footer
+- **created** footer
   - tablet ajusted margins and paddings
   - mobile ajusted content order, margins and paddings
-- created modules routes
+- **created** modules routes
   - navbar, footer can now be reused on the site
-- created employers route
-  - new path /employers
+- **created** employers route
+  - new path https://tz.thaeds.dev/employers
   - added navbar
   - added footer
   - added leadspace
-- created about us route
-  - new path /aboutus
+- **created** about us route
+  - new path https://tz.thaeds.dev/about-us
   - added navbar
   - added footer
   - added leadspace
-
 
 ### March 22th, 2021
 > 4 working hours
@@ -84,7 +83,35 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - adjusted gray background
   - adjusted margins and paddings
 - employers: added featured card
-- employers: created features band
+- employers: **created** features band
   - desktop adjusted to keep 4 columns
   - laptop and tablet adjusted to keep 2 columns
   - mobile adjusted to keep 1 column
+
+### March 23th, 2021
+> 4 working hours
+
+- **created** employers FAQ route
+  - new path https://tz.thaeds.dev/employers-faq
+  - added navbar
+  - added footer
+  - added leadspace
+  - **created** accordions
+    - laptop adjusted to keep 1 column
+    - mobile adjusted margins and paddings
+- **created** job seekers FAQ route
+  - new path https://tz.thaeds.dev/job-seekers-faq
+  - added navbar
+  - added footer
+  - added leadspace
+  - added accordions
+- **created** job seekers terms route
+  - new path https://tz.thaeds.dev/job-seekers-terms
+  - added navbar
+  - added footer
+  - added leadspace
+- **created** employers terms route
+  - new path https://tz.thaeds.dev/employers-terms
+  - added navbar
+  - added footer
+  - added leadspace
