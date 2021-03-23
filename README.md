@@ -43,19 +43,20 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 20th, 2021
 > 8 working hours
 
-- homepage: **created** 2 featured cards
-  - removed default clickable behaviors
-  - added links
-  - desktop adjusted font-size, margins and paddings
-  - laptop adjusted to keep 2 columns
-  - laptop adjusted font-size and paddings
-  - tablet and mobile adjusted paddings
-- homepage: **created** 2 solutions bands
-  - desktop adjusted gray background
-  - laptop adjusted grid, font-size and gray background
-  - tablet adjusted grid
-  - tablet removed gray background
-  - mobile adjusted grid
+- homepage: 
+  - **created** 2 featured cards
+    - removed default clickable behaviors
+    - added links
+    - desktop adjusted font-size, margins and paddings
+    - laptop adjusted to keep 2 columns
+    - laptop adjusted font-size and paddings
+    - tablet and mobile adjusted paddings
+  - **created** 2 solutions bands
+    - desktop adjusted gray background
+    - laptop adjusted grid, font-size and gray background
+    - tablet adjusted grid
+    - tablet removed gray background
+    - mobile adjusted grid
 
 ### March 21th, 2021
 > 6 working hours
@@ -65,13 +66,13 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - mobile ajusted content order, margins and paddings
 - **created** modules routes
   - navbar, footer can now be reused on the site
-- **created** employers route
-  - new path https://tz.thaeds.dev/employers
+- employers:
+  - **created** route https://tz.thaeds.dev/employers
   - added navbar
   - added footer
   - added leadspace
-- **created** about us route
-  - new path https://tz.thaeds.dev/about-us
+- about us: 
+  - **created** route https://tz.thaeds.dev/about-us
   - added navbar
   - added footer
   - added leadspace
@@ -79,39 +80,40 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 ### March 22th, 2021
 > 4 working hours
 
-- employers: added 3 solutions band
-  - adjusted gray background
-  - adjusted margins and paddings
-- employers: added featured card
-- employers: **created** features band
-  - desktop adjusted to keep 4 columns
-  - laptop and tablet adjusted to keep 2 columns
-  - mobile adjusted to keep 1 column
+- employers: 
+  - added 3 solutions band
+    - adjusted gray background
+    - adjusted margins and paddings
+  - added featured card
+  - **created** features band
+    - desktop adjusted to keep 4 columns
+    - laptop and tablet adjusted to keep 2 columns
+    - mobile adjusted to keep 1 column
 
 ### March 23th, 2021
 > 4 working hours
 
-- **created** employers FAQ route
-  - new path https://tz.thaeds.dev/employers-faq
-  - added navbar
-  - added footer
-  - added leadspace
+- employers FAQ:
+  - **created** route https://tz.thaeds.dev/employers-faq
+    - added navbar
+    - added footer
+    - added leadspace
   - **created** accordions
     - laptop adjusted to keep 1 column
     - mobile adjusted margins and paddings
-- **created** job seekers FAQ route
-  - new path https://tz.thaeds.dev/job-seekers-faq
-  - added navbar
-  - added footer
-  - added leadspace
-  - added accordions
-- **created** job seekers terms route
-  - new path https://tz.thaeds.dev/job-seekers-terms
-  - added navbar
-  - added footer
-  - added leadspace
-- **created** employers terms route
-  - new path https://tz.thaeds.dev/employers-terms
-  - added navbar
-  - added footer
-  - added leadspace
+- job seekers FAQ:
+  - **created** route https://tz.thaeds.dev/job-seekers-faq
+    - added navbar
+    - added footer
+    - added leadspace
+    - added accordions
+- job seekers terms:
+  - **created** route https://tz.thaeds.dev/job-seekers-terms
+    - added navbar
+    - added footer
+    - added leadspace
+- employers terms: 
+  - **created** route https://tz.thaeds.dev/employers-terms
+    - added navbar
+    - added footer
+    - added leadspace
