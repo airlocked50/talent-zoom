@@ -19,9 +19,10 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 - initial react project setup
 - installed ibm dot com modules
-- homepage: **created** leadspace
-  - adjusted buttons styles
-  - adjusted container width
+- homepage: 
+  - **created** leadspace
+    - adjusted buttons styles
+    - adjusted container width
 
 ### March 19th, 2021
 > 4 working hours
