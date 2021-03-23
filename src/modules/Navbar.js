@@ -32,7 +32,7 @@ const Navbar = () => {
               onClick={onClickSideNavExpand} 
               isactive={isSideNavExpanded.toString()} 
               renderIcon={Menu32} 
-              iconDescription="menu"
+              iconDescription="Menu"
             />
           </HeaderGlobalBar>
           <SideNav aria-label="Side navigation" expanded={isSideNavExpanded}>

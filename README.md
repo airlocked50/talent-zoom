@@ -49,7 +49,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
     - removed default clickable behaviors
     - added links
     - desktop adjusted font-size, margins and paddings
-    - laptop adjusted to keep 2 columns
+    - laptop adjusted to use 2 columns
     - laptop adjusted font-size and paddings
     - tablet and mobile adjusted paddings
   - **created** 2 solutions bands
@@ -87,12 +87,12 @@ Builds the app for production to the `build` folder. It correctly bundles React 
     - adjusted margins and paddings
   - added featured card
   - **created** features band
-    - desktop adjusted to keep 4 columns
-    - laptop and tablet adjusted to keep 2 columns
-    - mobile adjusted to keep 1 column
+    - desktop adjusted to use 4 columns
+    - laptop and tablet adjusted to use 2 columns
+    - mobile adjusted to use 1 column
 
 ### March 23th, 2021
-> 4 working hours
+> 8 working hours
 
 - employers FAQ:
   - **created** route https://tz.thaeds.dev/employers-faq
@@ -100,7 +100,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
     - added footer
     - added leadspace
   - **created** accordions
-    - laptop adjusted to keep 1 column
+    - laptop adjusted to use 1 column
     - mobile adjusted margins and paddings
 - job seekers FAQ:
   - **created** route https://tz.thaeds.dev/job-seekers-faq
@@ -118,3 +118,11 @@ Builds the app for production to the `build` folder. It correctly bundles React 
     - added navbar
     - added footer
     - added leadspace
+- about us:
+  - **created** values band
+    - laptop and tablet adjusted to use 2 columns
+    - mobile adjusted to use 1 columns
+  - **created** lead band
+  - **created** team cards
+    - laptop and tablet adjusted to use 2 columns
+    - mobile adjusted to use 1 columns
