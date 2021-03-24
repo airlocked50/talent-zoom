@@ -221,12 +221,14 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
   line-height: 24px;
   width: 70%;
   font-size: 16px;
+  color: #525252;
 }
 
 .th--solutions-third .th--solutions-paragraph {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 32px;
+  color: #525252;
 }
 
 .th--solutions-image {
@@ -257,6 +259,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
   margin-bottom: 24px;
   line-height: 24px;
   width: 50%;
+  color: #525252;
 }
 
 .th--solutions-second .bx--link {
@@ -354,7 +357,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 
 .th--solutions-box p {
   align-self: center;
-  color: #777;
+  color: #525252;
 }
 
 .th--solutions-box svg {
@@ -486,6 +489,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 
   .th--solutions-first, .th--solutions-second, .th--solutions-second.th--solutions-white {
     padding: 24px 16px 0;
+    border-bottom: 1px solid #bebebe;
   }
 
   .th--solutions-image {
@@ -554,6 +558,10 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 
 .bx--feature-card-block-large__container .bx--card__wrapper .bx--card__copy {
   margin-bottom: 24px;
+}
+
+.bx--feature-card-block-large__container .bx--card__wrapper .bx--card__copy p {
+  color: #525252;
 }
 
 :host(dds-feature-card-block-large) .bx--card__footer, .bx--feature-card-block-large .bx--card__footer {
@@ -684,16 +692,11 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 }
 
 .th--faq .bx--accordion--start .bx--accordion__content {
-  color: #777;
+  color: #525252;
   font-size: 16px;
   line-height: 24px;
   padding: 16px 30% 24px 16px;
   margin: 0;
-}
-
-.th--faq .bx--accordion--start .bx--accordion__content p {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .th--faq .bx--accordion--start .bx--accordion__content ul {
@@ -730,7 +733,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 /* ABOUT US */
 
 .th--leadcopy {
-  padding: 40px;
+  padding: 32px;
   height: 520px;
   background-size: cover;
 }
@@ -779,6 +782,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 .th--meet-team-box p {
   font-size: 16px;
   line-height: 24px;
+  color: #525252;
 }
 
 
@@ -827,10 +831,60 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 
 
 
+/* ABOUT US */
+
+.th--team {
+  padding: 0 16px;
+  margin: -8px 0 -24px;
+}
+
+.th--team dds-content-section-heading {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: -16px;
+  margin-bottom: 0;
+}
+
+.th--team dds-card-heading {
+  font-size: 32px;
+}
+
+.bx--carousel__navigation {
+  display: none;
+}
+
+@media (max-width: 66rem) {
+
+  .th--team {
+    margin: -24px 0;
+  }
+}
+
+@media (max-width: 41.99rem) {
+
+  .th--team {
+    padding: 0;
+  }
+
+  .th--team dds-content-section-heading {
+    font-size: 32px;
+  }
+
+  .th--team dds-card-heading {
+    font-size: 24px;
+  }
+}
+
+
+
 /* VALUES */
 
 .th--values {
-  padding: 40px;
+  padding: 32px;
+}
+
+.th--values p {
+  color: #525252;
 }
 
 .th--values h2 {

@@ -6,6 +6,11 @@ import Footer from '../modules/Footer';
 
 class Home extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = JSON.parse(this.props.json);
+  }
+
   componentDidMount() {
 
     // REPLACE the default leadspace buttons stylesheet
@@ -60,63 +65,53 @@ class Home extends Component {
 
         <LeadSpace 
           theme="g100"
-          title="Get matched with your dream job"
-          copy="Ditch the job applications and start getting matched with top employers."
+          title={this.state.home.leadspace.title}
+          copy={this.state.home.leadspace.subtitle}
           gradient={true}
           buttons={[
             {
-              copy: 'I’m ready to be matched',
+              copy: this.state.home.leadspace.cta_primary.text,
               renderIcon: ArrowRight20,
               iconDescription: 'arrow right',
-              href: '/signup',
+              href: this.state.home.leadspace.cta_primary.href,
               className: 'th--btn-first'
             },
             {
-              copy: 'I’m hiring',
+              copy: this.state.home.leadspace.cta_secondary.text,
               renderIcon: ArrowRight20,
               iconDescription: 'arrow right',
-              href: '/signup',
+              href: this.state.home.leadspace.cta_secondary.href,
               className: 'th--btn-second'
             },
           ]}
           image={{
             sources: [
-              { src: '/images/home-leadspace.jpg', breakpoint: 'sm' },
-              { src: '/images/home-leadspace.jpg', breakpoint: 'md' },
+              { src: this.state.home.leadspace.background_image.small, breakpoint: 'sm' },
+              { src: this.state.home.leadspace.background_image.medium, breakpoint: 'md' },
             ],
-            defaultSrc: '/images/home-leadspace.jpg',
-            alt: 'lead space image',
+            defaultSrc: this.state.home.leadspace.background_image.large,
+            alt: 'leadspace image',
           }}
         />
 
         <div className="th--solutions-first">
           <div className="bx--row">
             <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8">
-              <img className="th--solutions-image" src="/images/home-seeking-simplified.svg" alt="tridimensional Ts attached to each other"></img>
+              <img className="th--solutions-image" src={this.state.home.job_seeking.featured_image.src} alt={this.state.home.job_seeking.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>Joob seeking, simplified</h2>
+              <h2>{this.state.home.job_seeking.title}</h2>
               <div className="bx--row">
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>01</span>Create a profile</div>
-                  <div className="th--solutions-paragraph">Sign up and tell us what matters to you – from location preferences to compensation expectations.</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>02</span>Get matched</div>
-                  <div className="th--solutions-paragraph">We’ll take it from here. Match with top employers and get alerted when companies request to interview you!</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>03</span>Meet your dedicated Talent Advocate</div>
-                  <div className="th--solutions-paragraph">Our Talent Advocates are here to support you throughout the interview and hiring process.</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>04</span>Get hired</div>
-                  <div className="th--solutions-paragraph">Nailed the interview? Receive an offer letter, a contract to sign, and a signing bonus!</div>
-                </div>
+                {Object.keys(this.state.home.job_seeking.cards).map(key => 
+                  <div key={key} className="bx--col-lg-8 bx--col-md-8">
+                    <div className="th--solutions-title"><span>{this.state.home.job_seeking.cards[key].number}</span>{this.state.home.job_seeking.cards[key].title}</div>
+                    <div className="th--solutions-paragraph">{this.state.home.job_seeking.cards[key].text}</div>
+                  </div>
+                )}
               </div>
             </div>
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4 bx--col-sm-0">
-              <img className="th--solutions-image" src="/images/home-seeking-simplified.svg" alt="tridimensional Ts attached to each other"></img>
+              <img className="th--solutions-image" src={this.state.home.job_seeking.featured_image.src} alt={this.state.home.job_seeking.featured_image.alt}></img>
             </div>
           </div>
         </div>
@@ -125,20 +120,18 @@ class Home extends Component {
           <div className="th--solutions-background"></div>
           <div className="bx--row">
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4">
-              <img className="th--solutions-image" src="/images/home-join-team.svg" alt="tridimensional Ts with persons sitting on it"></img>
+              <img className="th--solutions-image" src={this.state.home.join_team.featured_image.src} alt={this.state.home.join_team.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>Join a team you love</h2>
-              <div className="th--solutions-paragraph">Get qualified by our Tech-Out team to match with your ideal company and find the perfect fit.</div>
+              <h2>{this.state.home.join_team.title}</h2>
+              <div className="th--solutions-paragraph">{this.state.home.join_team.text}</div>
               <div className="th--solutions-links">
-                <LinkWithIcon href="/signup">
-                  <span>Sign up to get matched</span>
-                  <ArrowRight20 />
-                </LinkWithIcon>
-                <LinkWithIcon href="/employers">
-                  <span>Hiring? Build your team</span>
-                  <ArrowRight20 />
-                </LinkWithIcon>
+                {Object.keys(this.state.home.join_team.links).map(key =>
+                  <LinkWithIcon key={key} href={this.state.home.join_team.links[key].href}>
+                    <span>{this.state.home.join_team.links[key].text}</span>
+                    <ArrowRight20 />
+                  </LinkWithIcon>
+                )}
               </div>
             </div>
           </div>
@@ -148,25 +141,27 @@ class Home extends Component {
           <FeatureCardBlockLarge
             className="bx--card bx--feature-card-block-large__card th--featured-card"
             eyebrow="none"
-            heading="Want to work remote?"
-            copy="As workplaces evolve, so do we. Discover remote, contract, and full time employment opportunities."
+            heading={this.state.home.work_remote.title}
+            copy={this.state.home.work_remote.text}
             cta={{
               href: '#',
             }}
             image={{
-              defaultSrc: '/images/home-work-remote.jpg',
-              alt: 'lead space image',
+              sources: [
+                { src: this.state.home.work_remote.background_image.small, breakpoint: 'sm' },
+                { src: this.state.home.work_remote.background_image.medium, breakpoint: 'md' },
+              ],
+              defaultSrc: this.state.home.work_remote.background_image.large,
+              alt: 'featured image',
             }}
           />
           <div className="th--featured-links">
-            <LinkWithIcon href="/signup">
-              <span>Create a profile</span>
-              <ArrowRight20 />
-            </LinkWithIcon>
-            <LinkWithIcon href="faqjobseeker">
-              <span>Learn more</span>
-              <ArrowRight20 />
-            </LinkWithIcon>
+            {Object.keys(this.state.home.work_remote.links).map(key =>
+              <LinkWithIcon key={key} href={this.state.home.work_remote.links[key].href}>
+                <span>{this.state.home.work_remote.links[key].text}</span>
+                <ArrowRight20 />
+              </LinkWithIcon>
+            )}
           </div>
         </div>
 
@@ -174,21 +169,27 @@ class Home extends Component {
           <FeatureCardBlockLarge
             className="bx--card bx--feature-card-block-large__card th--featured-card"
             eyebrow="none"
-            heading="You're in full control"
-            copy="Receive interview requests directly from companies that fit your needs. We’ll be sure to block your profile from current and requested employers."
+            heading={this.state.home.full_control.title}
+            copy={this.state.home.full_control.text}
             cta={{
               href: '#',
             }}
             image={{
-              defaultSrc: '/images/home-full-control.jpg',
-              alt: 'lead space image',
+              sources: [
+                { src: this.state.home.full_control.background_image.small, breakpoint: 'sm' },
+                { src: this.state.home.full_control.background_image.medium, breakpoint: 'md' },
+              ],
+              defaultSrc: this.state.home.full_control.background_image.large,
+              alt: 'featured image',
             }}
           />
           <div className="th--featured-links">
-            <LinkWithIcon href="/signup">
-              <span>Sign up to get matched</span>
-              <ArrowRight20 />
-            </LinkWithIcon>
+            {Object.keys(this.state.home.full_control.links).map(key =>
+              <LinkWithIcon key={key} href={this.state.home.full_control.links[key].href}>
+                <span>{this.state.home.full_control.links[key].text}</span>
+                <ArrowRight20 />
+              </LinkWithIcon>
+            )}
           </div>
         </div>
 

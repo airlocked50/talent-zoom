@@ -6,6 +6,11 @@ import { ArrowRight20, CheckmarkOutline24 } from '@carbon/icons-react';
 
 class Employers extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = JSON.parse(this.props.json);
+  }
+
   componentDidMount() {
 
     // REPLACE the default leadspace buttons stylesheet
@@ -42,28 +47,32 @@ class Employers extends Component {
 
         <LeadSpace 
           theme="g100"
-          title="Build your tech team"
-          copy="Join TalentZoom’s employment marketplace and get match with top talent."
+          title={this.state.employers.leadspace.title}
+          copy={this.state.employers.leadspace.subtitle}
           gradient={true}
           buttons={[
             {
-              copy: 'Get started',
+              copy: this.state.employers.leadspace.cta_primary.text,
               renderIcon: ArrowRight20,
               iconDescription: 'arrow right',
-              href: '/signup',
+              href: this.state.employers.leadspace.cta_primary.href,
               className: 'th--btn-first'
             },
             {
-              copy: 'I’m a job seeker',
+              copy: this.state.employers.leadspace.cta_secondary.text,
               renderIcon: ArrowRight20,
               iconDescription: 'arrow right',
-              href: '/signup',
+              href: this.state.employers.leadspace.cta_secondary.href,
               className: 'th--btn-second'
             },
           ]}
           image={{
-            defaultSrc: '/images/employers-leadspace.jpg',
-            alt: 'lead space image',
+            sources: [
+              { src: this.state.employers.leadspace.background_image.small, breakpoint: 'sm' },
+              { src: this.state.employers.leadspace.background_image.medium, breakpoint: 'md' },
+            ],
+            defaultSrc: this.state.employers.leadspace.background_image.large,
+            alt: 'leadspace image',
           }}
         />
 
@@ -71,31 +80,21 @@ class Employers extends Component {
           <div className="th--solutions-background-corner"></div>
           <div className="bx--row">
             <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8">
-              <img className="th--solutions-image" src="/images/employers-recruiting.svg" alt="tridimensional blocks with persons sitting on it"></img>
+              <img className="th--solutions-image" src={this.state.employers.recruiting.featured_image.src} alt={this.state.employers.recruiting.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>Recruiting tech talent, simplified</h2>
+              <h2>{this.state.employers.recruiting.title}</h2>
               <div className="bx--row">
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>01</span>Create your profile</div>
-                  <div className="th--solutions-paragraph">Provide a company overview and submit your open positions.</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>02</span>Get matched</div>
-                  <div className="th--solutions-paragraph">Our matching algorithms pair you with qualified candidates.</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>03</span>Interview top talend</div>
-                  <div className="th--solutions-paragraph">Request and schedule interviews within TalentZoom's integrated digital platform.</div>
-                </div>
-                <div className="bx--col-lg-8 bx--col-md-8">
-                  <div className="th--solutions-title"><span>04</span>Expand your team</div>
-                  <div className="th--solutions-paragraph">Update your open positions in your employer profile and match with your next team members!</div>
-                </div>
+                {Object.keys(this.state.employers.recruiting.cards).map(key => 
+                  <div key={key} className="bx--col-lg-8 bx--col-md-8">
+                    <div className="th--solutions-title"><span>{this.state.employers.recruiting.cards[key].number}</span>{this.state.employers.recruiting.cards[key].title}</div>
+                    <div className="th--solutions-paragraph">{this.state.employers.recruiting.cards[key].text}</div>
+                  </div>
+                )}
               </div>
             </div>
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4 bx--col-sm-0">
-              <img className="th--solutions-image" src="/images/employers-recruiting.svg" alt="tridimensional blocks with persons sitting on it"></img>
+              <img className="th--solutions-image" src={this.state.employers.recruiting.featured_image.src} alt={this.state.employers.recruiting.featured_image.alt}></img>
             </div>
           </div>
         </div>
@@ -103,16 +102,18 @@ class Employers extends Component {
         <div className="th--solutions-second">
           <div className="bx--row">
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4">
-              <img className="th--solutions-image" src="/images/employers-hiring.svg" alt="tridimensional Ts with persons sitting on it"></img>
+              <img className="th--solutions-image" src={this.state.employers.flexible_hiring.featured_image.src} alt={this.state.employers.flexible_hiring.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>Flexible hiring options</h2>
-              <div className="th--solutions-paragraph">As our world changes, so do our workplaces. Hire for contract, full-time, and remote positions with TalentZoom.</div>
+              <h2>{this.state.employers.flexible_hiring.title}</h2>
+              <div className="th--solutions-paragraph">{this.state.employers.flexible_hiring.text}</div>
               <div className="th--solutions-links">
-                <LinkWithIcon href="/signup">
-                  <span>Learn more</span>
-                  <ArrowRight20 />
-                </LinkWithIcon>
+                {Object.keys(this.state.employers.flexible_hiring.links).map(key =>
+                  <LinkWithIcon key={key} href={this.state.employers.flexible_hiring.links[key].href}>
+                    <span>{this.state.employers.flexible_hiring.links[key].text}</span>
+                    <ArrowRight20 />
+                  </LinkWithIcon>
+                )}
               </div>
             </div>
           </div>
@@ -122,44 +123,31 @@ class Employers extends Component {
           <div className="th--solutions-third-background-corner"></div>
           <div className="bx--row">
             <div className="bx--col-lg-4 bx--col-md-4">
-              <h2>Features</h2>
-              <div className="th--solutions-paragraph">Ditch the job applications and start getting matched with top employers.</div>
+              <h2>{this.state.employers.features.title}</h2>
+              <div className="th--solutions-paragraph">{this.state.employers.features.text}</div>
               <div className="th--solutions-links">
-                <LinkWithIcon href="/signup">
-                  <span>Created a profile</span>
-                  <ArrowRight20 />
-                </LinkWithIcon>
+                {Object.keys(this.state.employers.features.links).map(key =>
+                  <LinkWithIcon key={key} href={this.state.employers.features.links[key].href}>
+                    <span>{this.state.employers.features.links[key].text}</span>
+                    <ArrowRight20 />
+                  </LinkWithIcon>
+                )}
               </div>
             </div>
             <div className="bx--col-lg-4 bx--col-md-4">
               <div className="th--solutions-box">
                 <ul>
                   <li>
-                    <h3>TalentZoom</h3>
+                    <h3>{this.state.employers.features.first_card.title}</h3>
                   </li>
-                  <li>
-                    <p>High-quality, high intent Job Seekers</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>AI Driven matching</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Interview requests with scheduling and calendar</p>
+                  {Object.keys(this.state.employers.features.first_card.items).map(key =>
+                    <li key={key}>
+                      <p>{this.state.employers.features.first_card.items[key]}</p>
                       <CheckmarkOutline24 />
                     </li>
-                  <li>
-                    <p>Automated offers</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Dedicated Talent Advocate support</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Employer branding</p>
-                    <CheckmarkOutline24 />
+                  )}
+                  <li className="th--solutions-box-end">
+                    <p>{this.state.employers.features.first_card.footer}</p>
                   </li>
                 </ul>
               </div>
@@ -170,22 +158,16 @@ class Employers extends Component {
               <div className="th--solutions-box th--solutions-box-highlighted">
                 <ul>
                   <li>
-                    <h3>Hiring an employee?</h3>
+                    <h3>{this.state.employers.features.second_card.title}</h3>
                   </li>
-                  <li>
-                    <p>1% of salary monthly fee</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Fee cap - 12% of salary</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Payment schedule for up to 12 months*</p>
+                  {Object.keys(this.state.employers.features.second_card.items).map(key =>
+                    <li key={key}>
+                      <p>{this.state.employers.features.second_card.items[key]}</p>
                       <CheckmarkOutline24 />
                     </li>
+                  )}
                   <li className="th--solutions-box-end">
-                    <p>*Payments cease if the TalentZoom hire is terminated or resigns from their position before the 12 month payment period ends.</p>
+                    <p>{this.state.employers.features.second_card.footer}</p>
                   </li>
                 </ul>
               </div>
@@ -195,26 +177,16 @@ class Employers extends Component {
               <div className="th--solutions-box">
                 <ul>
                   <li>
-                    <h3>Hiring a contractor?</h3>
+                    <h3>{this.state.employers.features.third_card.title}</h3>
                   </li>
-                  <li>
-                    <p>Fixed fees of 12% based on annual compensation</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Fees are set on a per hour basis</p>
-                    <CheckmarkOutline24 />
-                  </li>
-                  <li>
-                    <p>Transparent contractor pay rate</p>
+                  {Object.keys(this.state.employers.features.third_card.items).map(key =>
+                    <li key={key}>
+                      <p>{this.state.employers.features.third_card.items[key]}</p>
                       <CheckmarkOutline24 />
                     </li>
-                  <li>
-                    <p>No conversions fees after 12 months of contracting*</p>
-                    <CheckmarkOutline24 />
-                  </li>
+                  )}
                   <li className="th--solutions-box-end">
-                    <p>*Want to convert your contractor before the 12 month mark? We will include a sliding scale for conversion fees.</p>
+                    <p>{this.state.employers.features.third_card.footer}</p>
                   </li>
                 </ul>
               </div>
@@ -225,16 +197,18 @@ class Employers extends Component {
         <div className="th--solutions-second th--solutions-white">
           <div className="bx--row">
             <div className="th--solutions-flex bx--col-lg-8 bx--col-md-4">
-              <img className="th--solutions-image" src="/images/employers-transparency.svg" alt="tridimensional T with a person sitting on it"></img>
+              <img className="th--solutions-image" src={this.state.employers.transparency.featured_image.src} alt={this.state.employers.transparency.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>Hire with transparency</h2>
-              <div className="th--solutions-paragraph">Apply to the candidates you're most interested in. View compensation expectations, tech stack, and other details up front.</div>
+              <h2>{this.state.employers.transparency.title}</h2>
+              <div className="th--solutions-paragraph">{this.state.employers.transparency.text}</div>
               <div className="th--solutions-links">
-                <LinkWithIcon href="/signup">
-                  <span>Create a profile</span>
-                  <ArrowRight20 />
-                </LinkWithIcon>
+                {Object.keys(this.state.employers.transparency.links).map(key =>
+                  <LinkWithIcon key={key} href={this.state.employers.transparency.links[key].href}>
+                    <span>{this.state.employers.transparency.links[key].text}</span>
+                    <ArrowRight20 />
+                  </LinkWithIcon>
+                )}
               </div>
             </div>
           </div>
@@ -244,21 +218,27 @@ class Employers extends Component {
           <FeatureCardBlockLarge
             className="bx--card bx--feature-card-block-large__card th--featured-card"
             eyebrow="none"
-            heading="Looking ahead to a diverse and inclusive future"
-            copy="Partnering with us means partnering with organizations that support our values and dedication to creating equal oportunity for everyone."
+            heading={this.state.employers.looking_ahead.title}
+            copy={this.state.employers.looking_ahead.text}
             cta={{
               href: '#',
             }}
             image={{
-              defaultSrc: '/images/employers-looking-ahead.jpg',
-              alt: 'lead space image',
+              sources: [
+                { src: this.state.employers.looking_ahead.background_image.small, breakpoint: 'sm' },
+                { src: this.state.employers.looking_ahead.background_image.medium, breakpoint: 'md' },
+              ],
+              defaultSrc: this.state.employers.looking_ahead.background_image.large,
+              alt: 'featured image',
             }}
           />
           <div className="th--featured-links">
-            <LinkWithIcon href="/signup">
-              <span>Get started</span>
-              <ArrowRight20 />
-            </LinkWithIcon>
+            {Object.keys(this.state.employers.looking_ahead.links).map(key =>
+              <LinkWithIcon key={key} href={this.state.employers.looking_ahead.links[key].href}>
+                <span>{this.state.employers.looking_ahead.links[key].text}</span>
+                <ArrowRight20 />
+              </LinkWithIcon>
+            )}
           </div>
         </div>
 

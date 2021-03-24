@@ -126,3 +126,14 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - **created** team cards
     - laptop and tablet adjusted to use 2 columns
     - mobile adjusted to use 1 columns
+
+### March 24th, 2021
+> 4 working hours
+
+- **created** json file referencing the whole content
+- replaced the content with variables from the json file
+- adjusted colors and paddings across the site
+- employers:
+  - mobile added rules
+- about us:
+  - **created** carousel band
