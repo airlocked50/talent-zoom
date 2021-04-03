@@ -137,3 +137,17 @@ Builds the app for production to the `build` folder. It correctly bundles React 
   - mobile added rules
 - about us:
   - **created** carousel band
+
+### March 3rd, 2021
+> 4 working hours
+
+- job seekers terms:
+  - replaced accordions with job seekers terms
+- employers terms:
+  - replaced accordions with employers terms
+- privacy terms:
+  - **created** privacy route https://tz.thaeds.dev/privacy
+  - added navbar
+  - added footer
+  - added leadspace
+  - added privacy terms

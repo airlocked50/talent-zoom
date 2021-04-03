@@ -7,6 +7,7 @@ import Employers from './pages/Employers';
 import EmployersFAQ from './pages/EmployersFAQ';
 import EmployersTerms from './pages/EmployersTerms';
 import AboutUs from './pages/AboutUs';
+import Privacy from './pages/Privacy';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
@@ -27,6 +28,7 @@ fetch('/data.json')
           <Route exact path="/employers-faq" isAuthed={true} render={(props) => ( <EmployersFAQ json={json} /> )} />
           <Route exact path="/employers-terms" isAuthed={true} render={(props) => ( <EmployersTerms json={json} /> )} />
           <Route exact path="/about-us" isAuthed={true} render={(props) => ( <AboutUs json={json} /> )} />
+          <Route exact path="/privacy" isAuthed={true} render={(props) => ( <Privacy json={json} /> )} />
         </Switch>
       </Router>,
       document.getElementById('root')

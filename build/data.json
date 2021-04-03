@@ -163,25 +163,14 @@
     },
     "job_seekers_terms": {
         "leadspace": {
-            "title": "Job seekers terms",
+            "title": "Job Seekers Terms of Service",
             "subtitle": "",
             "background_image": {
                 "small": "",
                 "medium": "",
                 "large": ""
             }
-        },
-        "description": "Get answers to common questions and links to learn more.",
-        "list": [
-            {
-                "question": "Why choose TalentZoom?",
-                "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
-            },
-            {
-                "question": "Why choose TalentZoom?",
-                "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
-            }
-        ]
+        }
     },
     "employers": {
         "leadspace": {
@@ -375,25 +364,14 @@
     },
     "employers_terms": {
         "leadspace": {
-            "title": "Employers terms",
+            "title": "Employer Terms of Service",
             "subtitle": "",
             "background_image": {
                 "small": "",
                 "medium": "",
                 "large": ""
             }
-        },
-        "description": "Get answers to common questions and links to learn more.",
-        "list": [
-            {
-                "question": "Why choose TalentZoom?",
-                "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
-            },
-            {
-                "question": "Why choose TalentZoom?",
-                "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
-            }
-        ]
+        }
     },
     "about_us": {
         "leadspace": {
@@ -447,6 +425,17 @@
                     "text": "We support candidates throughout the job seeking process."
                 }
             ]
+        }
+    },
+    "privacy": {
+        "leadspace": {
+            "title": "Privacy Policy",
+            "subtitle": "",
+            "background_image": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            }
         }
     }
 }

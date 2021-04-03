@@ -729,6 +729,58 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 }
 
 
+/* TERMS */
+
+.th--terms {
+  padding: 56px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.th--terms p {
+  margin-bottom: 16px;
+}
+
+.th--terms b {
+  font-weight: 600;
+}
+
+.th--terms ul {
+  list-style: disc;
+  margin-bottom: 32px;
+}
+
+.th--terms ol {
+  list-style: lower-latin;
+  margin-bottom: 32px;
+}
+
+.th--terms li {
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+.th--terms ul ul {
+  list-style: circle;
+  margin-left: 32px;
+}
+
+@media (max-width: 66rem) {
+
+  .th--terms {
+    padding: 40px 24px;
+  }
+}
+
+@media (max-width: 48rem) {
+
+  .th--terms {
+    padding: 24px 16px;
+  }
+}
+
+
 
 /* ABOUT US */
 
