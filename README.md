@@ -138,7 +138,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 - about us:
   - **created** carousel band
 
-### March 3rd, 2021
+### April 3rd, 2021
 > 4 working hours
 
 - job seekers terms:
