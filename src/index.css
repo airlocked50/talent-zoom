@@ -482,6 +482,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 .th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-italic {
   font-style: italic;
   margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-item {

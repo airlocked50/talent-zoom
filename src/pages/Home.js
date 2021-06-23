@@ -144,11 +144,11 @@ class Home extends Component {
               </div>
               <h3>Got hired?</h3>
               <div className="th--solutions-paragraph th--solutions-paragraph-italic">What will you do with your $500 signing bonus?</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> Live your best life, you deserve it: Revamp your workspace, pickup swag, or enjoy it with your friends and family.</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-italic">Tech talent rewards</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> TalentZoom Tech Talent community members receive monthly rewards.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> Live your best life, you deserve it: Revamp your workspace, 	  pickup swag, or enjoy it  with friends and family.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-italic">Tech Talent Rewards</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> TZ Tech Talent community members receive monthly rewards.</div>
               <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> Exclusive insight to tech industry specific trends and team culture competence.</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> We'll hook you up with giftscards to places you love and services you'll use, like Starbucks, Uber, and so much more.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> We’ll hook you up with gift cards to places you love and services you’ll use, like Starbucks, Uber and so much more.</div>
               <h3>Have a friend who codes?</h3>
               <div className="th--solutions-paragraph th--solutions-paragraph-italic">TZ Refer a friend Bonus</div>
               <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> TalentZoom compensates $300 for any referral who signs up and gets hired!</div>
