@@ -200,7 +200,7 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 }
 
 .th--solutions-third h2 {
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 32px;
 }
 
@@ -376,6 +376,122 @@ a.bx--side-nav__link > .bx--side-nav__link-text, .bx--side-nav a.bx--header__men
 .th--solutions-box .th--solutions-box-end p {
   align-self: flex-end;
   padding-bottom: 8px;
+}
+
+.th--solutions-third-table > div {
+  padding: 0;
+}
+
+.th--solutions-third-header {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 16px;
+  background-color: #bbdefb;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.th--solutions-third-content {
+  font-size: 14px;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.th--solutions-third-spacer {
+  margin: 24px;
+}
+
+.th--featured-second-job-description-high, .th--solutions-second-high {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.4;
+  padding-bottom: 16px;
+}
+
+.th--featured-second-job-description p {
+  margin-bottom: 8px;
+}
+
+.th--featured-second-job-description .bx--feature-card-block-large__container .bx--card__wrapper .bx--card__copy {
+  max-width: 100%;
+}
+
+@media (max-width: 671px) {
+
+  .th--solutions-third-h2-high {
+    padding: 0 16px;
+  }
+}
+
+.th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-high {
+  width: 90%;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 1056px) {
+
+  .th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-high {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-high {
+    margin-bottom: 40px;
+  }
+}
+
+.th--solutions-second .th--solutions-second-h2-high {
+  margin-bottom: 16px;
+}
+
+.th--solutions-second .th--solutions-paragraph.th--solutions-paragraph-high p {
+ margin-bottom: 16px;
+}
+
+.th--featured-second-job-description .bx--feature-card-block-large .bx--card__wrapper {
+ padding-top: 40px;
+}
+
+.th--solutions-third-bold {
+  font-weight: 500;
+}
+
+.th--featured-second-job-description {
+  margin-bottom: -16px;
+}
+
+.th--featured-second-job-description .bx--feature-card-block-large__container {
+  padding-top: 586px;
+}
+
+@media (max-width: 1200px) {
+
+  .th--featured-second-job-description .bx--feature-card-block-large__container {
+    padding-top: 736px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .th--featured-second-job-description .bx--feature-card-block-large__container {
+    padding-top: 0;
+  }
+}
+
+.th--solutions-third-content svg{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  fill: #0f62fe;
 }
 
 @media (max-width: 124rem) {

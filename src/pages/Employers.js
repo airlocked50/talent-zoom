@@ -38,6 +38,10 @@ class Employers extends Component {
         while (new_links_2.childNodes.length > 0) {
           current_content_2.appendChild(new_links_2.childNodes[0]);
         }
+
+    // ADD copy to the job description card block
+    var card =  document.querySelector('.th--featured-second-job-description');
+        console.log(card);
   }
 
   render() {
@@ -105,91 +109,106 @@ class Employers extends Component {
               <img className="th--solutions-image" src={this.state.employers.flexible_hiring.featured_image.src} alt={this.state.employers.flexible_hiring.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>{this.state.employers.flexible_hiring.title}</h2>
-              <div className="th--solutions-paragraph">{this.state.employers.flexible_hiring.text}</div>
-              <div className="th--solutions-links">
-                {Object.keys(this.state.employers.flexible_hiring.links).map(key =>
-                  <LinkWithIcon key={key} href={this.state.employers.flexible_hiring.links[key].href}>
-                    <span>{this.state.employers.flexible_hiring.links[key].text}</span>
-                    <ArrowRight20 />
-                  </LinkWithIcon>
-                )}
+              <h2 className="th--solutions-second-h2-high">Flexible hiring options to accommodate an evolving and ever changing workforce without sacrificing culture fit</h2>
+              <div className="th--solutions-paragraph th--solutions-paragraph-high">
+                <p>From hiring for contract, contract to hire and full-time to determining if the position will be in office or remote, TalentZoom has you covered.</p>
+                <p className="th--solutions-second-high">"41.8% of the American workforce continues to work remotely. Although an estimated 26.7% will still be working from home through 2021, 36.2 million Americans (22% of the workforce) will be working remotely by 2025."</p>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="th--featured-second th--featured-second-job-description">
+          <section class="bx--feature-card-block-large" data-autoid="dds--feature-card-block-large">
+            <div class="bx--feature-card-block-large__container">
+              <div class="th--featured-card bx--tile bx--tile--clickable bx--card bx--feature-card-block-large__card">
+                <div class="bx--image" data-autoid="dds--image__longdescription">
+                  <picture>
+                    <source media="(min-width: 672px)" srcset="/images/employers-looking-ahead.jpg" />
+                    <source media="(min-width: 320px)" srcset="/images/employers-looking-ahead.jpg" />
+                    <img class="bx--image__img bx--card__img" src="/images/employers-looking-ahead.jpg" alt="featured image" />
+                  </picture>
+                </div>
+                <div class="bx--card__wrapper">
+                  <div class="bx--card__content">
+                    <h3 class="bx--card__heading">A position is more than a job description</h3>
+                    <div class="bx--card__copy">
+                      <p className="th--featured-second-job-description-high">"76% of hiring staff say attacting quality candidates is their biggest challenges."</p>
+                      <p>- TalentZoom's algorithms are designed for results. We found that employers that add soft skills and culture fit needs to their job descriptions attracts the best matched candidates.</p>
+                      <p>- Review matched candidates with transparecy: review candidates you are most interested in. View compensation, expectations, tech talk, and other details up front.</p>
+                      <p>- You have complete control over your hiring process with TalentZoom. We deliver candidates. You decide who you interview. You make the offer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
         <div className="th--solutions-third">
           <div className="th--solutions-third-background-corner"></div>
-          <div className="bx--row">
-            <div className="bx--col-lg-4 bx--col-md-4">
-              <h2>{this.state.employers.features.title}</h2>
-              <div className="th--solutions-paragraph">{this.state.employers.features.text}</div>
-              <div className="th--solutions-links">
-                {Object.keys(this.state.employers.features.links).map(key =>
-                  <LinkWithIcon key={key} href={this.state.employers.features.links[key].href}>
-                    <span>{this.state.employers.features.links[key].text}</span>
-                    <ArrowRight20 />
-                  </LinkWithIcon>
-                )}
-              </div>
+          <div className="bx--row th--solutions-third-table">
+            <div className="bx--col-lg-16 bx--col-md-8">
+              <h2 className="th--solutions-third-h2-high">{this.state.employers.features.title}</h2>
             </div>
-            <div className="bx--col-lg-4 bx--col-md-4">
-              <div className="th--solutions-box">
-                <ul>
-                  <li>
-                    <h3>{this.state.employers.features.first_card.title}</h3>
-                  </li>
-                  {Object.keys(this.state.employers.features.first_card.items).map(key =>
-                    <li key={key}>
-                      <p>{this.state.employers.features.first_card.items[key]}</p>
-                      <CheckmarkOutline24 />
-                    </li>
-                  )}
-                  <li className="th--solutions-box-end">
-                    <p>{this.state.employers.features.first_card.footer}</p>
-                  </li>
-                </ul>
-              </div>
+            <div className="bx--col-lg-8 bx--col-md-4 bx--col-sm-2">
+              <div className="th--solutions-third-header">Pricing</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Monthly price</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Full time hires</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Part time, contract, contract-to-hire fees</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">TalentZoom contract term</div>
             </div>
-            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8"><br/><br/></div>
-            <div className="bx--col-lg-0 bx--col-md-8"><br/><br/></div>
-            <div className="bx--col-lg-4 bx--col-md-4">
-              <div className="th--solutions-box th--solutions-box-highlighted">
-                <ul>
-                  <li>
-                    <h3>{this.state.employers.features.second_card.title}</h3>
-                  </li>
-                  {Object.keys(this.state.employers.features.second_card.items).map(key =>
-                    <li key={key}>
-                      <p>{this.state.employers.features.second_card.items[key]}</p>
-                      <CheckmarkOutline24 />
-                    </li>
-                  )}
-                  <li className="th--solutions-box-end">
-                    <p>{this.state.employers.features.second_card.footer}</p>
-                  </li>
-                </ul>
-              </div>
+            <div className="bx--col-lg-4 bx--col-md-2 bx--col-sm-2">
+              <div className="th--solutions-third-header">Classic</div>
+              <div className="th--solutions-third-content">None</div>
+              <div className="th--solutions-third-content">12% of first year salary</div>
+              <div className="th--solutions-third-content">Industry leading  low cost rates</div>
+              <div className="th--solutions-third-content">N/A</div>
             </div>
-            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8"><br/><br/></div>
-            <div className="bx--col-lg-4 bx--col-md-4">
-              <div className="th--solutions-box">
-                <ul>
-                  <li>
-                    <h3>{this.state.employers.features.third_card.title}</h3>
-                  </li>
-                  {Object.keys(this.state.employers.features.third_card.items).map(key =>
-                    <li key={key}>
-                      <p>{this.state.employers.features.third_card.items[key]}</p>
-                      <CheckmarkOutline24 />
-                    </li>
-                  )}
-                  <li className="th--solutions-box-end">
-                    <p>{this.state.employers.features.third_card.footer}</p>
-                  </li>
-                </ul>
-              </div>
+            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-2">
+              <div className="th--solutions-third-header">Pricing</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Monthly price</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Full time hires</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Part time, contract, contract-to-hire fees</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">TalentZoom contract term</div>
+            </div>
+            <div className="bx--col-lg-4 bx--col-md-2 bx--col-sm-2">
+              <div className="th--solutions-third-header">Membership</div>
+              <div className="th--solutions-third-content">$499/month</div>
+              <div className="th--solutions-third-content">8% of first year salary</div>
+              <div className="th--solutions-third-content">Industry leading low cost rates</div>
+              <div className="th--solutions-third-content">Annual</div>
+            </div>
+            <div className="bx--col-lg-16 bx--col-md-8 th--solutions-third-spacer"></div>
+            <div className="bx--col-lg-8 bx--col-md-4 bx--col-sm-2">
+              <div className="th--solutions-third-header">TalentZoom Inclusive Service</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Candidate access to montlhy rewards program</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Weekly matched candidates</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Instantly populated bill rates</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Ability to convert contractors at anytime</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Highly engaged Job seekers</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Top quality industry talent</div>
+              <div className="th--solutions-third-content th--solutions-third-bold">Cutting edge customer centric platform</div>
+            </div>
+            <div className="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">
+              <div className="th--solutions-third-header">Classic</div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+            </div>
+            <div className="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">
+              <div className="th--solutions-third-header">Membership</div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
+              <div className="th--solutions-third-content"><CheckmarkOutline24 /></div>
             </div>
           </div>
         </div>
