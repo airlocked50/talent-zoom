@@ -88,6 +88,7 @@ class Employers extends Component {
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
               <h2>{this.state.employers.recruiting.title}</h2>
+              <p className="th--solutions-first-subtitle">We specialize in matching Frontend, Back End, Full Stack and Mobile Engineers, as well as Product Managers and Product Owners</p>
               <div className="bx--row">
                 {Object.keys(this.state.employers.recruiting.cards).map(key => 
                   <div key={key} className="bx--col-lg-8 bx--col-md-8">
@@ -109,10 +110,24 @@ class Employers extends Component {
               <img className="th--solutions-image" src={this.state.employers.flexible_hiring.featured_image.src} alt={this.state.employers.flexible_hiring.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2 className="th--solutions-second-h2-high">Flexible hiring options to accommodate an evolving and ever changing workforce without sacrificing culture fit</h2>
+              <h2 className="th--solutions-second-h2-high">Flexible hiring options to accommodate an evolving and ever changing workforce</h2>
               <div className="th--solutions-paragraph th--solutions-paragraph-high">
                 <p>From hiring for contract, contract to hire and full-time to determining if the position will be in office or remote, TalentZoom has you covered.</p>
-                <p className="th--solutions-second-high">"41.8% of the American workforce continues to work remotely. Although an estimated 26.7% will still be working from home through 2021, 36.2 million Americans (22% of the workforce) will be working remotely by 2025."</p>
+                <div class="th--solutions-links th--solutions-links-inline">
+                  <div class="bx--link-with-icon__container" data-autoid="dds--link-with-icon">
+                    <a href="" class="bx--link bx--link-with-icon">
+                      <span>Create a profile</span>
+                      <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                      </a>
+                    </div>
+                    <div class="bx--link-with-icon__container" data-autoid="dds--link-with-icon">
+                      <a href="/employers-faq" class="bx--link bx--link-with-icon">
+                        <span>Learn more</span>
+                        <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                      </a>
+                    </div>
+                  </div>
+                <p className="th--solutions-second-high">“41.8% of the American workforce continues to work remotely.“</p>
               </div>
             </div>
           </div>
@@ -133,10 +148,11 @@ class Employers extends Component {
                   <div class="bx--card__content">
                     <h3 class="bx--card__heading">A position is more than a job description</h3>
                     <div class="bx--card__copy">
-                      <p className="th--featured-second-job-description-high">"76% of hiring staff say attacting quality candidates is their biggest challenges."</p>
-                      <p>- TalentZoom's algorithms are designed for results. We found that employers that add soft skills and culture fit needs to their job descriptions attracts the best matched candidates.</p>
-                      <p>- Review matched candidates with transparecy: review candidates you are most interested in. View compensation, expectations, tech talk, and other details up front.</p>
+                      <p>- TalentZoom’s algorithms are designed for results. We found that employers that add soft skills and culture fit needs to their job descriptions attract the best matched candidates.</p>
+                      <p>- Review matched candidates with Transparency : Review candidates you are most interested in. View compensation expectations, tech stack, and other details up front.</p>
                       <p>- You have complete control over your hiring process with TalentZoom. We deliver candidates. You decide who you interview. You make the offer.</p>
+                      <br/>
+                      <p className="th--featured-second-job-description-high">“76% of hiring staff say attracting quality candidates is their biggest challenge.”</p>
                     </div>
                   </div>
                 </div>
@@ -165,6 +181,7 @@ class Employers extends Component {
               <div className="th--solutions-third-content">Industry leading  low cost rates</div>
               <div className="th--solutions-third-content">N/A</div>
             </div>
+            <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-8 th--solutions-third-spacer"></div>
             <div className="bx--col-lg-0 bx--col-md-0 bx--col-sm-2">
               <div className="th--solutions-third-header">Pricing</div>
               <div className="th--solutions-third-content th--solutions-third-bold">Monthly price</div>
@@ -179,7 +196,7 @@ class Employers extends Component {
               <div className="th--solutions-third-content">Industry leading low cost rates</div>
               <div className="th--solutions-third-content">Annual</div>
             </div>
-            <div className="bx--col-lg-16 bx--col-md-8 th--solutions-third-spacer"></div>
+            <div className="bx--col-lg-16 bx--col-md-8 bx--col-sm-8 th--solutions-third-spacer"></div>
             <div className="bx--col-lg-8 bx--col-md-4 bx--col-sm-2">
               <div className="th--solutions-third-header">TalentZoom Inclusive Service</div>
               <div className="th--solutions-third-content th--solutions-third-bold">Candidate access to montlhy rewards program</div>

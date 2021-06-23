@@ -56,6 +56,11 @@ class Home extends Component {
         while (new_links_2.childNodes.length > 0) {
           current_content_2.appendChild(new_links_2.childNodes[0]);
         }
+
+    var remote = document.querySelector(".th--featured-first-remotes");
+    var remote_place = document.querySelector(".th--featured-first-remotes-place .bx--card__content");
+        remote_place.appendChild(remote);
+
   }
 
   render() {
@@ -101,6 +106,7 @@ class Home extends Component {
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
               <h2>{this.state.home.job_seeking.title}</h2>
+              <p className="th--solutions-first-subtitle">For Frontend, Back End, Full Stack and Mobile Engineers, as well as Product Managers and Product Owners</p>
               <div className="bx--row">
                 {Object.keys(this.state.home.job_seeking.cards).map(key => 
                   <div key={key} className="bx--col-lg-8 bx--col-md-8">
@@ -123,26 +129,52 @@ class Home extends Component {
               <img className="th--solutions-image" src={this.state.home.join_team.featured_image.src} alt={this.state.home.join_team.featured_image.alt}></img>
             </div>
             <div className="bx--col-lg-8 bx--col-md-4">
-              <h2>{this.state.home.join_team.title}</h2>
-              <div className="th--solutions-paragraph">{this.state.home.join_team.text}</div>
-              <div className="th--solutions-links">
-                {Object.keys(this.state.home.join_team.links).map(key =>
-                  <LinkWithIcon key={key} href={this.state.home.join_team.links[key].href}>
-                    <span>{this.state.home.join_team.links[key].text}</span>
-                    <ArrowRight20 />
-                  </LinkWithIcon>
-                )}
+              <h2>Join a team you love, and a Community that thrives</h2>
+              <h3>Team you'll love</h3>
+              <div className="th--solutions-paragraph th--solutions-paragraph-small">We partner with Employers dedicated to positive work culture.</div>
+              <div class="th--solutions-links th--solutions-links-bottom">
+                <div class="bx--link-with-icon__container" data-autoid="dds--link-with-icon">
+                  <a href="/signup" class="bx--link bx--link-with-icon">
+                    <span>Sign up to get matched</span>
+                    <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                    </svg>
+                  </a>
+                </div>
               </div>
+              <h3>Got hired?</h3>
+              <div className="th--solutions-paragraph th--solutions-paragraph-italic">What will you do with your $500 signing bonus?</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> Live your best life, you deserve it: Revamp your workspace, pickup swag, or enjoy it with your friends and family.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-italic">Tech talent rewards</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> TalentZoom Tech Talent community members receive monthly rewards.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> Exclusive insight to tech industry specific trends and team culture competence.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> We'll hook you up with giftscards to places you love and services you'll use, like Starbucks, Uber, and so much more.</div>
+              <h3>Have a friend who codes?</h3>
+              <div className="th--solutions-paragraph th--solutions-paragraph-italic">TZ Refer a friend Bonus</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item"><span>-</span> TalentZoom compensates $300 for any referral who signs up and gets hired!</div>
+              <div class="th--solutions-links th--solutions-links-bottom">
+                <div class="bx--link-with-icon__container" data-autoid="dds--link-with-icon">
+                  <a href="/contact" class="bx--link bx--link-with-icon">
+                    <span>Email us</span>
+                    <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>
 
-        <div className="th--featured-first">
+        <div className="th--featured-first th--featured-first-remotes-place">
           <FeatureCardBlockLarge
             className="bx--card bx--feature-card-block-large__card th--featured-card"
             eyebrow="none"
             heading={this.state.home.work_remote.title}
-            copy={this.state.home.work_remote.text}
+            copy="TalentZoom's sophisticated network removes geographical barriers so you can work anywhere, for anyone around the globe."
             cta={{
               href: '#',
             }}
@@ -155,6 +187,7 @@ class Home extends Component {
               alt: 'featured image',
             }}
           />
+          <p class="th--solutions-second-high th--featured-first-remotes">“The number of remote workers in the next five years is expected to be nearly double what it was before COVID-19: By 2025, 36.2 million Americans will be remote, an increase of 16.8 million people from pre-pandemic rates.”</p>
           <div className="th--featured-links">
             {Object.keys(this.state.home.work_remote.links).map(key =>
               <LinkWithIcon key={key} href={this.state.home.work_remote.links[key].href}>
