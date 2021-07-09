@@ -119,12 +119,11 @@ class Employers extends Component {
               <p className="th--banner-description">Front End, Back End, Full Stack and Mobile Engineers, as well as Product Managers and Product Owners</p>
             </div>
             <div className="bx--col-lg-4 bx--col-md-6 bx--col-sm-8">
-              <a href="/signup">
+              <a href="/signup#employers">
                 <Button
                   as="button"
                   iconDescription="arrow right"
                   renderIcon={ArrowRight20}
-                  href="/signup"
                   role="button">
                   Get matched
                 </Button>

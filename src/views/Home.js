@@ -163,7 +163,6 @@ class Home extends Component {
                   as="button"
                   iconDescription="arrow right"
                   renderIcon={ArrowRight20}
-                  href="/signup"
                   role="button">
                   Sign up for free
                 </Button>
