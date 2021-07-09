@@ -1,0 +1,28 @@
+.cont {
+    background-image: url('../views/background2.png');
+    background-size: cover;
+    display: grid;
+    text-align: initial;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.signContainer {
+    background-image: url('../views/background2.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cont {
+        background-image: none;
+        background-size: cover;
+        display: grid;
+        margin-bottom: 80px;
+    }
+    
+  }

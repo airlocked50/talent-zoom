@@ -1,459 +1,458 @@
 {
-    "home": {
-      "leadspace": {
-        "title": "Get matched with your dream job",
-        "subtitle": "Welcome to our tech talent marketplace.",
-        "cta_primary": {
-          "text": "I'm ready to be matched",
-          "href": "/signup"
-        },
-        "cta_secondary": {
-          "text": "I'm hiring",
-          "href": "/signup"
-        },
-        "background_image": {
-          "small": "/images/home-leadspace.jpg",
-          "medium": "/images/home-leadspace.jpg",
-          "large": "/images/home-leadspace.jpg"
-        }
+  "home": {
+    "leadspace": {
+      "title": "Get matched with your dream job",
+      "subtitle": "Welcome to our tech talent marketplace.",
+      "cta_primary": {
+        "text": "I'm ready to be matched",
+        "href": "/signup"
       },
-      "job_seeking": {
-        "title": "Job seeking, simplified",
-        "featured_image": {
-          "src": "/images/home-seeking-simplified.svg",
-          "alt": "tridimensional Ts attached to each other"
-        },
-        "cards": [
-          {
-            "number": "01",
-            "title": "Create a profile",
-            "text": "Sign up and tell us what matters to you – from location preferences to compensation expectations."
-          },
-          {
-            "number": "02",
-            "title": "Get matched",
-            "text": "We’ll take it from here. Match with top employers and get alerted when companies request to interview you!"
-          },
-          {
-            "number": "03",
-            "title": "Meet your Talent Advocate",
-            "text": "Our Talent Advocates are here to support you throughout the interview and hiring process."
-          },
-          {
-            "number": "04",
-            "title": "Get hired & Join our Tech Talent Community",
-            "text": "Get hired. Get a signing bonus. Get monthly rewards."
-          }
-        ]
+      "cta_secondary": {
+        "text": "I'm hiring",
+        "href": "/signup"
       },
-      "join_team": {
-        "title": "Join a team you love",
-        "text": "Get qualified by our Talent Advocate team to match with your ideal company and find the perfect fit.",
-        "featured_image": {
-          "src": "/images/home-join-team.svg",
-          "alt": "tridimensional Ts with persons sitting on it"
-        },
-        "links": [
-          {
-            "text": "Sign up to get matched",
-            "href": "/signup"
-          },
-          {
-            "text": "Hiring? Build your team",
-            "href": "/employers"
-          }
-        ]
-      },
-      "work_remote": {
-        "title": "Want to work remote?",
-        "text": "The number of remote workers in the next five years is expected to be nearly double what it was before COVID-19: By 2025, <b>36.2 million</b> Americans will be remote, an increase of <b>16.8 million</b> people from pre-pandemic rates.",
-        "links": [
-          {
-            "text": "Create a profile",
-            "href": "/signup"
-          },
-          {
-            "text": "Learn more",
-            "href": "/job-seekers-faq"
-          }
-        ],
-        "background_image": {
-          "small": "/images/home-work-remote.jpg",
-          "medium": "/images/home-work-remote.jpg",
-          "large": "/images/home-work-remote.jpg"
-        }
-      },
-      "full_control": {
-        "title": "You're in full control",
-        "text": "Receive interview requests directly from companies that fit your needs. We’ll be sure to block your profile from current and requested employers.",
-        "links": [
-          {
-            "text": "Sign up to get matched",
-            "href": "/signup"
-          }
-        ],
-        "background_image": {
-          "small": "/images/home-full-control.jpg",
-          "medium": "/images/home-full-control.jpg",
-          "large": "/images/home-full-control.jpg"
-        }
+      "background_image": {
+        "small": "/images/home-leadspace.jpg",
+        "medium": "/images/home-leadspace.jpg",
+        "large": "/images/home-leadspace.jpg"
       }
     },
-    "job_seekers_faq": {
-      "leadspace": {
-        "title": "Job seeker's frequently asked questions",
-        "subtitle": "",
-        "background_image": {
-          "small": "",
-          "medium": "",
-          "large": ""
-        }
+    "job_seeking": {
+      "title": "Job seeking, simplified",
+      "featured_image": {
+        "src": "/images/home-seeking-simplified.svg",
+        "alt": "tridimensional Ts attached to each other"
       },
-      "description": "Get answers to common questions!",
-      "list": [
+      "cards": [
         {
-          "question": "Why choose TalentZoom?",
-          "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+          "number": "01",
+          "title": "Create a profile",
+          "text": "Sign up and tell us what matters to you."
         },
         {
-          "question": "How can I join TalentZoom?",
-          "answer": "Create your profile <a href='/signup'>here</a>! We assess all candidates for factors like compensation expectations, location preferences, tech stack, and years of experience to ensure we match you with your ideal position."
+          "number": "02",
+          "title": "Get matched",
+          "text": "We’ll take it from here. Match with top employers and get alerted when companies request to interview you!"
         },
         {
-          "question": "What kinds of opportunities can I match with?",
-          "answer": "TalentZoom’s employers are seeking candidates for a variety of position types, including contract, full time, and remote."
+          "number": "03",
+          "title": "Meet your Talent Advocate",
+          "text": "Our Talent Advocates are here to support you throughout the interview and hiring process."
         },
         {
-          "question": "Will I be guaranteed a match?",
-          "answer": "You are not guaranteed to get matched with an employer through TalentZoom. You will only be notified with an opportunity when we have matched your skills and experience with an employer’s position criteria."
-        },
-        {
-          "question": "What kinds of Employers are on TalentZoom's employment marketplace?",
-          "answer": "TalentZoom’s employer screening process means you match only with companies who are actively looking to hire for current open positions."
-        },
-        {
-          "question": "Can I choose who I interview with?",
-          "answer": "Yes! You are free to accept or decline any interview request you receive from a potential employer."
-        },
-        {
-          "question": "How much does it cost?",
-          "answer": "Nothing at all. TalentZoom is free for job seekers!"
-        },
-        {
-          "question": "Can I block my current or past employers from viewing my profile?",
-          "answer": "Yes. As a part of your profile creation process, you will be able to indicate which companies you would like blocked from your profile."
-        },
-        {
-          "question": "Can I see the employers on the TalentZoom marketplace and contact them directly?",
-          "answer": "No, your profile is visible to employers and they can request an interview through the integrated TalentZoom platform."
-        },
-        {
-          "question": "How are the interviews structured?",
-          "answer": "This depends on the position you are interviewing for and the employer themselves. Our Talent Advocates can help prep you for your interviews and answer any questions you may have about the process!"
-        },
-        {
-          "question": "How long will it take for me to get hired?",
-          "answer": "This can vary depending on the number of interview requests you accept, as well as the employer’s internal processes."
-        },
-        {
-          "question": "What resources and support does TalentZoom provide Job seekers?",
-          "answer": "Each Job seeker is assigned a Talent Advocate who is there to offer guidance and answer any questions you may have throughout the hiring process."
+          "number": "04",
+          "title": "Get hired & Join our Tech Talent Community",
+          "text": "Get hired. Get a signing bonus. Get monthly rewards."
         }
       ]
     },
-    "job_seekers_terms": {
-      "leadspace": {
-        "title": "Job seekers terms",
-        "subtitle": "",
-        "background_image": {
-          "small": "",
-          "medium": "",
-          "large": ""
-        }
+    "join_team": {
+      "title": "Join a team you love",
+      "text": "Get qualified by our Talent Advocate team to match with your ideal company and find the perfect fit.",
+      "featured_image": {
+        "src": "/images/home-join-team.svg",
+        "alt": "tridimensional Ts with persons sitting on it"
       },
-      "description": "Get answers to common questions and links to learn more.",
-      "list": [
+      "links": [
         {
-          "question": "Why choose TalentZoom?",
-          "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+          "text": "Sign up to get matched",
+          "href": "/signup"
         },
         {
-          "question": "Why choose TalentZoom?",
-          "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+          "text": "Hiring? Build your team",
+          "href": "/employers"
         }
       ]
     },
-    "employers": {
-      "leadspace": {
-        "title": "Build your tech team",
-        "subtitle": "Join TalentZoom’s employment marketplace and get matched with top tech talent.",
-        "cta_primary": {
-          "text": "Get started",
+    "work_remote": {
+      "title": "Want to work remote?",
+      "text": "The number of remote workers in the next five years is expected to be nearly double what it was before COVID-19: By 2025, <b>36.2 million</b> Americans will be remote, an increase of <b>16.8 million</b> people from pre-pandemic rates.",
+      "links": [
+        {
+          "text": "Create a profile",
           "href": "/signup"
         },
-        "cta_secondary": {
-          "text": "I'm a Job seeker",
-          "href": "/signup"
-        },
-        "background_image": {
-          "small": "/images/employers-leadspace.jpg",
-          "medium": "/images/employers-leadspace.jpg",
-          "large": "/images/employers-leadspace.jpg"
+        {
+          "text": "Learn more",
+          "href": "/job-seekers-faq"
         }
-      },
-      "recruiting": {
-        "title": "Recruiting tech talent, simplified",
-        "featured_image": {
-          "src": "/images/employers-recruiting.svg",
-          "alt": "tridimensional blocks with persons sitting on it"
-        },
-        "cards": [
-          {
-            "number": "01",
-            "title": "Create a profile",
-            "text": "Provide a company overview and submit your open positions."
-          },
-          {
-            "number": "02",
-            "title": "Get matched",
-            "text": "Receive candidate matches weekly, specific to your company's needs."
-          },
-          {
-            "number": "03",
-            "title": "Interview top talent",
-            "text": "Request and schedule interviews within TalentZoom's integrated digital platform."
-          },
-          {
-            "number": "04",
-            "title": "Expand your team",
-            "text": "Update your open positions in your employer profile and match with your next team members!"
-          }
-        ]
-      },
-      "flexible_hiring": {
-        "title": "Flexible hiring options",
-        "text": "As our world changes, so do our workplaces. Hire for contract, full-time, and remote positions with TalentZoom.",
-        "featured_image": {
-          "src": "/images/employers-hiring.svg",
-          "alt": "tridimensional cubes with a person sitting in the middle"
-        },
-        "links": [
-          {
-            "text": "Create a profile",
-            "href": "/signup"
-          },
-          {
-            "text": "Learn more",
-            "href": "/employers-faq"
-          }
-        ]
-      },
-      "features": {
-        "title": "Pricing  Simplified",
-        "text": "Ditch the job applications and start getting matched with top employers.",
-        "links": [
-          {
-            "text": "Get  Started",
-            "href": "/signup"
-          }
-        ],
-        "first_card": {
-          "title": "TalentZoom inclusive service",
-          "items": [
-            "Highly engaged Job seekers",
-            "Top quality industry talent",
-            "Cutting edge customer centric platform",
-            "AI-driven matching capabilities",
-            "Dedicated Hiring Success Manager and Talent Advocate"
-          ],
-          "footer": ""
-        },
-        "second_card": {
-          "title": "Hiring a full time employee",
-          "items": [
-            "Placement fee of 8-12%",
-            "Our fee is based off of new hires annual base salary",
-            "Never pay more than a 12% placement fee on any full-time hire"
-          ],
-          "footer": ""
-        },
-        "third_card": {
-          "title": "Hiring a contractor",
-          "items": [
-            "Industry leading, low cost rates",
-            "Instantly populated bill rate assigned to your open roles",
-            "Match with candidates that fit your contracting budget",
-            "Ability to convert your contractors at any time"
-          ],
-          "footer": ""
-        }
-      },
-      "transparency": {
-        "title": "Our investment in your people",
-        "text": "Like you, we believe a company's biggest asset is their people. That's why we created an exclusive Tech Talent Community that provides ongoing support to our hired candidates.",
-        "featured_image": {
-          "src": "/images/employers-transparency.svg",
-          "alt": "tridimensional T with a person sitting on it"
-        },
-        "links": [
-          {
-            "text": "Create a profile",
-            "href": "/signup"
-          }
-        ]
-      },
-      "looking_ahead": {
-        "title": "Looking ahead to a diverse and inclusive future",
-        "text": "Partnering with us means partnering with organizations that support our values and dedication to creating equal opportunity for everyone.",
-        "links": [
-          {
-            "text": "Get started",
-            "href": "/signup"
-          }
-        ],
-        "background_image": {
-          "small": "/images/employers-looking-ahead.jpg",
-          "medium": "/images/employers-looking-ahead.jpg",
-          "large": "/images/employers-looking-ahead.jpg"
-        }
+      ],
+      "background_image": {
+        "small": "/images/home-work-remote.jpg",
+        "medium": "/images/home-work-remote.jpg",
+        "large": "/images/home-work-remote.jpg"
       }
     },
-    "employers_faq": {
-      "leadspace": {
-        "title": "Employer's frequently asked questions",
-        "subtitle": "",
-        "background_image": {
-          "small": "",
-          "medium": "",
-          "large": ""
-        }
-      },
-      "description": "Get answers to common questions!",
-      "list": [
+    "full_control": {
+      "title": "You're in full control",
+      "text": "Receive interview requests directly from companies that fit your needs. We’ll be sure to block your profile from current and requested employers.",
+      "links": [
         {
-          "question": "Why choose TalentZoom?",
-          "answer": "Expanding your business starts with hiring top talent. TalentZoom provides employers with a better, faster, and more cost efficient way to grow your tech team. Our tech employment marketplace matches companies with pre-screened, fully-vetted tech talent using AI and high-value human touch points. Hire with better accuracy and less risk compared with traditional staffing agencies."
-        },
-        {
-          "question": "How much does TalentZoom cost?",
-          "answer": "Unlike subscription-based models, TalentZoom offers two lower-risk pricing models:<ul><li>For Direct Placement: TalentZoom charges a fee of 8-12%.</li><li>When hiring a contractor:  TalentZoom’s platform will provide you with an hourly bill rate based on a specific desired salary range. This rate will be set for the length of the contract and invoiced on a monthly basis."
-        },
-        {
-          "question": "How can I get started with TalentZoom?",
-          "answer": "Create a profile <a href='/signup'>here</a>. Employers are asked to provide details including:<ul><li>Open positions for fulfillment</li><li>Employment type and compensation details</li><li>Tech stack and years of experience</li></ul>"
-        },
-        {
-          "question": "What kind of Job seeker can I match with through TalentZoom?",
-          "answer": "TalentZoom’s employment marketplace connects companies with ready-to-hire tech talent who have been pre-screened and fully-vetted by our Talent Advocates. Match with a variety of Job seekers looking for tech positions!"
-        },
-        {
-          "question": "How do you pre-screen Job seekers?",
-          "answer": "Our Talent Advocates screen each job seeker for skills required for the exact role they are matched with, to ensure their experience is relevant to the opportunity. Screening may also involve a managerial reference from the candidate."
-        },
-        {
-          "question": "How long until I receive a match with a qualified Job seeker?",
-          "answer": "Gaining access to a large and diverse candidate pool through TalentZoom’s employment marketplace means increasing your chances of getting matched quickly and accurately with Job seekers that fit your needs. Providing the most up-to-date and detailed information in your employer profile is the best way to increase matching time. You’ll receive real-time alerts when you’ve received a match!"
-        },
-        {
-          "question": "Can I contact Job seekers outside of the TalentZoom platform?",
-          "answer": "TalentZoom’s platform offers integrated communications features, so all contact between employers and Job seekers occurs within the platform. Schedule interviews and send offers directly to candidates you’re interested in. Your dedicated Hiring Success Manager is there to answer any further questions you may have!"
-        },
-        {
-          "question": "Is there anyone I can turn to for support throughout the hiring process?",
-          "answer": "A dedicated Hiring Success Manager is assigned to each TalentZoom employer for support in all stages of the hiring process. Your Hiring Success Manager is there to answer any questions you may have, offer guidance, and ensure you successfully fulfill your open roles with talent that is the best fit for your team."
-        },
-        {
-          "question": "What are the hiring options?",
-          "answer": "TalentZoom offers support in hiring for contract and full-time employment opportunities. Contractors are hired as W-2 employees, with benefits!"
-        },
-        {
-          "question": "How often will an Employer have to communicate with TalentZoom?",
-          "answer": "TalentZoom personalizes the hiring process by offering support and communication when your hiring team sees fit. We simplify the hiring process by alerting you with ready-to-hire candidates that you have matched with, so you only need to reach out to us with additional questions you may have."
-        },
-        {
-          "question": "What if I need to hire for more roles over time?",
-          "answer": "Update your employer profile at any time with your new open positions – our team gets alerted and the matching process begins right away."
-        }
-      ]
-    },
-    "employers_terms": {
-      "leadspace": {
-        "title": "Employers terms",
-        "subtitle": "",
-        "background_image": {
-          "small": "",
-          "medium": "",
-          "large": ""
-        }
-      },
-      "description": "Get answers to common questions and links to learn more.",
-      "list": [
-        {
-          "question": "Why choose TalentZoom?",
-          "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!",
-          "answera": "dfsdfsdfdsf"
-        }
-      ]
-    },
-    "about_us": {
-      "leadspace": {
-        "title": "Optimizing the tech employment landscape",
-        "subtitle": "TalentZoom is an employment marketplace that matches Job seekers with top employers using AI matching and human touch points.",
-        "background_image": {
-          "small": "/images/about-us-leadspace.jpg",
-          "medium": "/images/about-us-leadspace.jpg",
-          "large": "/images/about-us-leadspace.jpg"
-        }
-      },
-      "values": {
-        "title": "Our values",
-        "text": "At TalentZoom, we believe in accessibility. We strive to create a world where Job seekers can discover their dream opportunity with full transparency, and where employers can hire new team members with confidence.",
-        "items": ["Better experience", "Faster results", "More cost effective"],
-        "featured_image": {
-          "src": "/images/home-seeking-simplified.svg",
-          "alt": "tridimensional T block"
-        }
-      },
-      "robust_platform": {
-        "title": "A robust hiring platform",
-        "subtitle": "The innovative solution to job seeking and hiring.",
-        "background_image": "/images/about-us-robust.jpg",
-        "cta_primary": {
-          "text": "For Job seekers",
-          "href": "/signup"
-        },
-        "cta_secondary": {
-          "text": "For Employers",
+          "text": "Sign up to get matched",
           "href": "/signup"
         }
-      },
-      "meet_team": {
-        "title": "Meet the team",
-        "cards": [
-          {
-            "title": "Our Talent Advocate Team",
-            "text": "We qualify and support candidates throughout the job seeking process."
-          },
-          {
-            "title": "Our Hiring Success Team",
-            "text": "We support companies throughout the hiring process."
-          },
-          {
-            "title": "Our Onboarding Team",
-            "text": "We ensure our Job seekers are integrated with their new team from an onboarding perspective."
-          }
-        ]
-      }
-    },
-    "privacy": {
-      "leadspace": {
-        "title": "Privacy Policy",
-        "subtitle": "",
-        "background_image": {
-          "small": "",
-          "medium": "",
-          "large": ""
-        }
+      ],
+      "background_image": {
+        "small": "/images/home-full-control.jpg",
+        "medium": "/images/home-full-control.jpg",
+        "large": "/images/home-full-control.jpg"
       }
     }
-  }  
+  },
+  "job_seekers_faq": {
+    "leadspace": {
+      "title": "Job seeker's frequently asked questions",
+      "subtitle": "",
+      "background_image": {
+        "small": "",
+        "medium": "",
+        "large": ""
+      }
+    },
+    "description": "Get answers to common questions!",
+    "list": [
+      {
+        "question": "Why choose TalentZoom?",
+        "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+      },
+      {
+        "question": "How can I join TalentZoom?",
+        "answer": "Create your profile <a href='/signup'>here</a>! We assess all candidates for factors like compensation expectations, location preferences, tech stack, and years of experience to ensure we match you with your ideal position."
+      },
+      {
+        "question": "What kinds of opportunities can I match with?",
+        "answer": "TalentZoom’s employers are seeking candidates for a variety of position types, including contract, full time, and remote."
+      },
+      {
+        "question": "Will I be guaranteed a match?",
+        "answer": "You are not guaranteed to get matched with an employer through TalentZoom. You will only be notified with an opportunity when we have matched your skills and experience with an employer’s position criteria."
+      },
+      {
+        "question": "What kinds of Employers are on TalentZoom's employment marketplace?",
+        "answer": "TalentZoom’s employer screening process means you match only with companies who are actively looking to hire for current open positions."
+      },
+      {
+        "question": "Can I choose who I interview with?",
+        "answer": "Yes! You are free to accept or decline any interview request you receive from a potential employer."
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "Nothing at all. TalentZoom is free for job seekers!"
+      },
+      {
+        "question": "Can I block my current or past employers from viewing my profile?",
+        "answer": "Yes. As a part of your profile creation process, you will be able to indicate which companies you would like blocked from your profile."
+      },
+      {
+        "question": "Can I see the employers on the TalentZoom marketplace and contact them directly?",
+        "answer": "No, your profile is visible to employers and they can request an interview through the integrated TalentZoom platform."
+      },
+      {
+        "question": "How are the interviews structured?",
+        "answer": "This depends on the position you are interviewing for and the employer themselves. Our Talent Advocates can help prep you for your interviews and answer any questions you may have about the process!"
+      },
+      {
+        "question": "How long will it take for me to get hired?",
+        "answer": "This can vary depending on the number of interview requests you accept, as well as the employer’s internal processes."
+      },
+      {
+        "question": "What resources and support does TalentZoom provide Job seekers?",
+        "answer": "Each Job seeker is assigned a Talent Advocate who is there to offer guidance and answer any questions you may have throughout the hiring process."
+      }
+    ]
+  },
+  "job_seekers_terms": {
+    "leadspace": {
+      "title": "Job seekers terms",
+      "subtitle": "",
+      "background_image": {
+        "small": "",
+        "medium": "",
+        "large": ""
+      }
+    },
+    "description": "Get answers to common questions and links to learn more.",
+    "list": [
+      {
+        "question": "Why choose TalentZoom?",
+        "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+      },
+      {
+        "question": "Why choose TalentZoom?",
+        "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!"
+      }
+    ]
+  },
+  "employers": {
+    "leadspace": {
+      "title": "Build your tech team",
+      "subtitle": "Join TalentZoom’s employment marketplace and get matched with top tech talent.",
+      "cta_primary": {
+        "text": "Get started",
+        "href": "/signup"
+      },
+      "cta_secondary": {
+        "text": "I'm a Job seeker",
+        "href": "/signup"
+      },
+      "background_image": {
+        "small": "/images/employers-leadspace.jpg",
+        "medium": "/images/employers-leadspace.jpg",
+        "large": "/images/employers-leadspace.jpg"
+      }
+    },
+    "recruiting": {
+      "title": "Recruiting tech talent, simplified",
+      "featured_image": {
+        "src": "/images/employers-recruiting.svg",
+        "alt": "tridimensional blocks with persons sitting on it"
+      },
+      "cards": [
+        {
+          "number": "01",
+          "title": "Create a profile",
+          "text": "Provide a company overview and submit your open positions."
+        },
+        {
+          "number": "02",
+          "title": "Get matched",
+          "text": "Receive candidate matches, specific to your company's needs."
+        },
+        {
+          "number": "03",
+          "title": "Interview top talent",
+          "text": "Request and schedule interviews within TalentZoom's integrated digital platform."
+        },
+        {
+          "number": "04",
+          "title": "Expand your team",
+          "text": "Update your open positions in your employer profile and match with your next team members!"
+        }
+      ]
+    },
+    "flexible_hiring": {
+      "title": "Flexible hiring options",
+      "text": "As our world changes, so do our workplaces. Hire for contract, full-time, and remote positions with TalentZoom.",
+      "featured_image": {
+        "src": "/images/employers-hiring.svg",
+        "alt": "tridimensional cubes with a person sitting in the middle"
+      },
+      "links": [
+        {
+          "text": "Create a profile",
+          "href": "/signup"
+        },
+        {
+          "text": "Learn more",
+          "href": "/employers-faq"
+        }
+      ]
+    },
+    "features": {
+      "title": "Pricing  Simplified",
+      "text": "Ditch the job applications and start getting matched with top employers.",
+      "links": [
+        {
+          "text": "Get  Started",
+          "href": "/signup"
+        }
+      ],
+      "first_card": {
+        "title": "TalentZoom inclusive service",
+        "items": [
+          "Highly engaged Job seekers",
+          "Top quality industry talent",
+          "Cutting edge customer centric platform",
+          "AI-driven matching capabilities",
+          "Dedicated Hiring Success Manager and Talent Advocate"
+        ],
+        "footer": ""
+      },
+      "second_card": {
+        "title": "Hiring a full time employee",
+        "items": [
+          "Placement fee of 8-12%",
+          "Our fee is based off of new hires annual base salary",
+          "Never pay more than a 12% placement fee on any full-time hire"
+        ],
+        "footer": ""
+      },
+      "third_card": {
+        "title": "Hiring a contractor",
+        "items": [
+          "Industry leading, low cost rates",
+          "Instantly populated bill rate assigned to your open roles",
+          "Match with candidates that fit your contracting budget",
+          "Ability to convert your contractors at any time"
+        ],
+        "footer": ""
+      }
+    },
+    "transparency": {
+      "title": "Our investment in your people",
+      "text": "Like you, we believe a company's biggest asset is their people. That's why we have created an exclusive Tech Talent Community that provides ongoing support to our hired candidates.",
+      "featured_image": {
+        "src": "/images/employers-transparency.svg",
+        "alt": "tridimensional T with a person sitting on it"
+      },
+      "links": [
+        {
+          "text": "Create a profile",
+          "href": "/signup"
+        }
+      ]
+    },
+    "looking_ahead": {
+      "title": "Looking ahead to a diverse and inclusive future",
+      "text": "Partnering with us means partnering with organizations that support our values and dedication to creating equal opportunity for everyone.",
+      "links": [
+        {
+          "text": "Get started"
+        }
+      ],
+      "background_image": {
+        "small": "/images/employers-looking-ahead.jpg",
+        "medium": "/images/employers-looking-ahead.jpg",
+        "large": "/images/employers-looking-ahead.jpg"
+      }
+    }
+  },
+  "employers_faq": {
+    "leadspace": {
+      "title": "Employer's frequently asked questions",
+      "subtitle": "",
+      "background_image": {
+        "small": "",
+        "medium": "",
+        "large": ""
+      }
+    },
+    "description": "Get answers to common questions!",
+    "list": [
+      {
+        "question": "Why choose TalentZoom?",
+        "answer": "Expanding your business starts with hiring top talent. TalentZoom provides employers with a better, faster, and more cost efficient way to grow your tech team. Our tech employment marketplace matches companies with pre-screened, fully-vetted tech talent using AI and high-value human touch points. Hire with better accuracy and less risk compared with traditional staffing agencies."
+      },
+      {
+        "question": "How much does TalentZoom cost?",
+        "answer": "Unlike subscription-based models, TalentZoom offers two lower-risk pricing models:<ul><li>For Direct Placement: TalentZoom charges a fee of 8-12%.</li><li>When hiring a contractor:  TalentZoom’s platform will provide you with an hourly bill rate based on a specific desired salary range. This rate will be set for the length of the contract and invoiced on a monthly basis."
+      },
+      {
+        "question": "How can I get started with TalentZoom?",
+        "answer": "Create a profile <a href='/signup'>here</a>. Employers are asked to provide details including:<ul><li>Open positions for fulfillment</li><li>Employment type and compensation details</li><li>Tech stack and years of experience</li></ul>"
+      },
+      {
+        "question": "What kind of Job seeker can I match with through TalentZoom?",
+        "answer": "TalentZoom’s employment marketplace connects companies with ready-to-hire tech talent who have been pre-screened and fully-vetted by our Talent Advocates. Match with a variety of Job seekers looking for tech positions!"
+      },
+      {
+        "question": "How do you pre-screen Job seekers?",
+        "answer": "Our Talent Advocates screen each job seeker for skills required for the exact role they are matched with, to ensure their experience is relevant to the opportunity. Screening may also involve a managerial reference from the candidate."
+      },
+      {
+        "question": "How long until I receive a match with a qualified Job seeker?",
+        "answer": "Gaining access to a large and diverse candidate pool through TalentZoom’s employment marketplace means increasing your chances of getting matched quickly and accurately with Job seekers that fit your needs. Providing the most up-to-date and detailed information in your employer profile is the best way to increase matching time. You’ll receive real-time alerts when you’ve received a match!"
+      },
+      {
+        "question": "Can I contact Job seekers outside of the TalentZoom platform?",
+        "answer": "TalentZoom’s platform offers integrated communications features, so all contact between employers and Job seekers occurs within the platform. Schedule interviews and send offers directly to candidates you’re interested in. Your dedicated Hiring Success Manager is there to answer any further questions you may have!"
+      },
+      {
+        "question": "Is there anyone I can turn to for support throughout the hiring process?",
+        "answer": "A dedicated Hiring Success Manager is assigned to each TalentZoom employer for support in all stages of the hiring process. Your Hiring Success Manager is there to answer any questions you may have, offer guidance, and ensure you successfully fulfill your open roles with talent that is the best fit for your team."
+      },
+      {
+        "question": "What are the hiring options?",
+        "answer": "TalentZoom offers support in hiring for contract, contract-to-hire, and full-time employment opportunities. Contractors are hired as W-2 employees, with benefits!"
+      },
+      {
+        "question": "How often will an Employer have to communicate with TalentZoom?",
+        "answer": "TalentZoom personalizes the hiring process by offering support and communication when your hiring team sees fit. We simplify the hiring process by alerting you with ready-to-hire candidates that you have matched with, so you only need to reach out to us with additional questions you may have."
+      },
+      {
+        "question": "What if I need to hire for more roles over time?",
+        "answer": "Update your employer profile at any time with your new open positions – our team gets alerted and the matching process begins right away."
+      }
+    ]
+  },
+  "employers_terms": {
+    "leadspace": {
+      "title": "Employers terms",
+      "subtitle": "",
+      "background_image": {
+        "small": "",
+        "medium": "",
+        "large": ""
+      }
+    },
+    "description": "Get answers to common questions and links to learn more.",
+    "list": [
+      {
+        "question": "Why choose TalentZoom?",
+        "answer": "At TalentZoom, we aim to match you with the role that is the best fit for you. We make job searching both automated and highly personalized, providing you with the easiest way to discover opportunities that fit your needs. No more applications, cover letters, or recruiters – simply sign up and let interested companies request to interview you!",
+        "answera": "dfsdfsdfdsf"
+      }
+    ]
+  },
+  "about_us": {
+    "leadspace": {
+      "title": "Optimizing the tech employment landscape",
+      "subtitle": "TalentZoom is an employment marketplace that matches Job seekers with top employers using AI matching and human touch points.",
+      "background_image": {
+        "small": "/images/about-us-leadspace.jpg",
+        "medium": "/images/about-us-leadspace.jpg",
+        "large": "/images/about-us-leadspace.jpg"
+      }
+    },
+    "values": {
+      "title": "Our values",
+      "text": "At TalentZoom, we believe in accessibility. We strive to create a world where Job seekers can discover their dream opportunity with full transparency, and where employers can hire new team members with confidence.",
+      "items": ["Better experience", "Faster results", "More cost effective"],
+      "featured_image": {
+        "src": "/images/home-seeking-simplified.svg",
+        "alt": "tridimensional T block"
+      }
+    },
+    "robust_platform": {
+      "title": "A robust hiring platform",
+      "subtitle": "The innovative solution to job seeking and hiring.",
+      "background_image": "/images/about-us-robust.jpg",
+      "cta_primary": {
+        "text": "For Job seekers",
+        "href": "/signup"
+      },
+      "cta_secondary": {
+        "text": "For Employers",
+        "href": "/signup"
+      }
+    },
+    "meet_team": {
+      "title": "Meet the team",
+      "cards": [
+        {
+          "title": "Our Talent Advocate Team",
+          "text": "We qualify and support candidates throughout the job seeking process."
+        },
+        {
+          "title": "Our Hiring Success Team",
+          "text": "We support companies throughout the hiring process."
+        },
+        {
+          "title": "Our Onboarding Team",
+          "text": "We ensure our Job seekers are integrated with their new team from an onboarding perspective."
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "leadspace": {
+      "title": "Privacy Policy",
+      "subtitle": "",
+      "background_image": {
+        "small": "",
+        "medium": "",
+        "large": ""
+      }
+    }
+  }
+}

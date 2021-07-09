@@ -1,0 +1,110 @@
+.back {
+  background-color: #ffffff;
+  padding: 5px;
+  box-shadow: none;
+  border-bottom: 3px solid #f4f4f4;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+.main-item-div {
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+}
+.title {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.subtitle {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.dot {
+  font-size: 18px;
+  color: #7db0e4;
+}
+.name {
+  font-size: 2rem;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.cv {
+  font-size: 1rem;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.cv:hover {
+  color: #202020;
+  cursor: pointer;
+}
+.visit {
+  font-size: 1rem;
+  margin-top: 15px;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.visit:hover {
+  color: #202020;
+  cursor: pointer;
+}
+.line {
+  margin-top: 10px;
+}
+
+.sub-title-about {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.sub-body-about {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: Ubuntu;
+  color: #424242;
+}
+.category-talent-main-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.category-talent-sub-title {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Ubuntu;
+  color: #424242;
+}
+.category-talent-sub-title-work-experience {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Ubuntu;
+  color: #212121;
+}
+.arrow-button-edit {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .back {
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: none;
+    border-bottom: 3px solid #f4f4f4;
+    margin-left: -20px;
+    margin-top: 20px;
+    border-radius: 2px;
+  }
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+}
+.social-link:hover {
+  width: 35px;
+  height: 35px;
+}
+
