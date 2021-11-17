@@ -155,7 +155,7 @@ class Home extends Component {
           <div className="bx--row">
             <div className="bx--col-lg-12 bx--col-md-6 bx--col-sm-8">
               <h2 className="th--banner-title">Roles we specialize in</h2>
-              <p className="th--banner-description">Front End, Back End, Full Stack and Mobile Engineers, as well as Product Managers and Product Owners</p>
+              <p className="th--banner-description">Product Managers, Business Analysts, Full Stack, Cloud, DevOps Engineers, and System Engineers</p>
             </div>
             <div className="bx--col-lg-4 bx--col-md-6 bx--col-sm-8">
               <a href="/signup">
@@ -213,10 +213,10 @@ class Home extends Component {
                 </div>
               </div>
               <h3>Got hired?</h3>
-              <div className="th--solutions-paragraph th--solutions-paragraph-italic">What will you do with your signing bonus?</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-item">Live your best life, you deserve it. Revamp your workspace, pickup swag, or enjoy it with friends and family.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-italic"></div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item">Live your best life, you deserve it.</div>
               <div className="th--solutions-paragraph th--solutions-paragraph-italic">Tech Talent Rewards</div>
-              <div className="th--solutions-paragraph th--solutions-paragraph-item"> TZ Tech Talent community members receive monthly rewards.</div>
+              <div className="th--solutions-paragraph th--solutions-paragraph-item">TZ Tech Talent community members receive monthly rewards.</div>
               <h3>Have a friend who codes?</h3>
               <div className="th--solutions-paragraph th--solutions-paragraph-italic">TZ Refer a friend Bonus</div>
               <div className="th--solutions-paragraph th--solutions-paragraph-item"> TalentZoom compensates for any referral who signs up and gets hired!</div>

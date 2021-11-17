@@ -56,7 +56,7 @@ class Fees extends Component {
                 within twelve (12) months of the date on which the Employer
                 first viewed the Job Seeker through the Website. Upon the
                 acceptance by a Job Seeker of a Job Offer, Employer will be
-                charged a hiring fee (the “Employer Fee”), which equals 8-12% of
+                charged a hiring fee (the “Employer Fee”), which equals 10-12% of
                 such Job Seeker’s base salary. The Employer Fee shall be paid
                 within thirty (30) days of the Job Seeker’s start date. Should
                 the Candidate resign or be terminated (for any reason other than
